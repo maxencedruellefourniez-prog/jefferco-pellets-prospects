@@ -3205,6 +3205,98 @@
       "status": "a_qualifier",
       "notes": "Très gros volume visé (40 000 t/an) mais sur plaquettes, pas granulés — intéressant pour un appoint ou une diversification fournisseur plutôt qu'un remplacement total.",
       "sourceSummary": "forumeco.fr — https://forumeco.fr/lentreprise-luzeal-de-pauvres-veut-favoriser-la-biomasse/"
+    },
+    {
+      "id": "grand-belfort-chaufferie-biomasse-2029",
+      "name": "Grand Belfort — futur réseau de chaleur bas-carbone (chaufferie biomasse 2029)",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain (en projet, DSP signée)",
+      "city": "Belfort",
+      "department": "Territoire de Belfort (90)",
+      "lat": 47.64,
+      "lon": 6.86,
+      "currentFuel": "Réseau bas-carbone en projet (DSP signée avec Dalkia le 09/01/2026) : chaleur fatale de l'UVE SERTRID + nouvelle chaufferie biomasse (plaquettes forestières et bois bocager de filières locales) d'ici 2029. 55 km de réseau, ~240 bâtiments, 150 GWh/an visés à partir de 2032, 125 M€ d'investissement, soutien Fonds Chaleur ADEME.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2026,
+          "confidence": "confirme",
+          "note": "Communiqué de presse conjoint Dalkia/Grand Belfort (09/01/2026) : signature de la DSP. PCAET du Grand Belfort (fiche-action n°28) confirme le calendrier (début travaux 2028, chaufferie biomasse 2029).",
+          "source": "https://www.dalkia.fr/sites/default/files/2026-01/CP_%20Signature_DSP_Grand%20Belfort_9janvier2026.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maître d'ouvrage délégué (DSP)",
+          "org": "Dalkia (pour Grand Belfort Communauté d'Agglomération)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Dalkia%20Grand%20Belfort%20DSP%20reseau%20chaleur"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "MEILLEURE TROUVAILLE de cette recherche : projet chiffré, daté et financé, combustible pas encore verrouillé (plaquettes annoncées, mais approvisionnement pas nécessairement attribué) — fenêtre de prospection avant 2029.",
+      "sourceSummary": "Dalkia + Grand Belfort — communiqué du 09/01/2026 ; PCAET Grand Belfort fiche-action 28"
+    },
+    {
+      "id": "auxerre-energie-verte-2e-chaufferie",
+      "name": "Auxerre Énergie Verte — 2e chaufferie biomasse (Coriance)",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain (en construction)",
+      "city": "Auxerre",
+      "department": "Yonne (89)",
+      "lat": 47.8,
+      "lon": 3.57,
+      "currentFuel": "Nouveau réseau de chaleur (AUXEV/AUXEV2) exploité par Coriance pour la Ville d'Auxerre, >70-80% EnR, ~4 900 équivalents-logements sur 14 km. 2e chaufferie biomasse en construction (travaux démarrés 2025-2026), mise en service visée automne 2026, complétée par 2 chaudières gaz d'appoint/secours. Distinct du réseau historique « Chaufferie Biomasse des Hauts d'Auxerre ».",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2026,
+          "confidence": "confirme",
+          "note": "Communiqué Coriance (03/03/2025) + site officiel du projet (auxerre-energie-verte.fr, actualité du 16/02/2026) : travaux de la 2e chaufferie biomasse en cours, mise en service automne 2026.",
+          "source": "https://groupe-coriance.fr/2025/03/03/a-auxerre-coriance-renforce-son-engagement-pour-les-energies-renouvelables/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant du réseau",
+          "org": "Coriance (pour la Ville d'Auxerre)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Coriance%20Auxerre%20Energie%20Verte"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Mise en service imminente (automne 2026) — à contacter rapidement, le fournisseur de combustible n'est peut-être pas encore verrouillé.",
+      "sourceSummary": "Groupe Coriance + auxerre-energie-verte.fr"
+    },
+    {
+      "id": "papeteries-de-dijon-longvic",
+      "name": "Papeteries de Dijon",
+      "type": "industriel",
+      "sector": "Industrie papetière — papier-carton ondulé",
+      "city": "Longvic",
+      "department": "Côte-d'Or (21)",
+      "lat": 47.29,
+      "lon": 5.08,
+      "currentFuel": "4 chaudières à eau chaude au gaz naturel (1 120 + 1 160 + 1 005 + 575 kW, ~3,86 MW cumulés), régime déclaration ICPE 2910-A2. Aucune trace de conversion biomasse depuis l'arrêté de 2006 ; site toujours actif selon Industrie Explorer. Statut à reconfirmer avant démarchage (source datée de 2006).",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "secteur_energivore",
+          "confidence": "indice",
+          "note": "Arrêté préfectoral d'autorisation d'exploiter du 23/08/2006 (Géorisques), lu directement : 4 chaudières gaz naturel, ~3,86 MW cumulés. Aucun signe de conversion biomasse trouvé depuis.",
+          "source": "https://www.georisques.gouv.fr/webappReport/ws/installations/document/2ec41e89c69f4120ab416d3e07d81a4a"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction / responsable énergie",
+          "org": "Papeteries de Dijon",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Papeteries%20de%20Dijon%20Longvic%20energie"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Profil industriel énergivore encore 100% gaz — bon candidat de conversion proactive, mais donnée de puissance à rafraîchir (source de 2006).",
+      "sourceSummary": "Arrêté préfectoral ICPE (Géorisques, 2006) + Industrie Explorer"
     }
   ]
 }
