@@ -1433,6 +1433,127 @@
       "status": "a_qualifier",
       "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
       "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "commune-blamont-doubs",
+      "name": "Commune de Blamont — bâtiments communaux",
+      "type": "collectivite",
+      "sector": "Collectivité — bâtiments communaux chauffés aux granulés",
+      "city": "Blamont",
+      "department": "Doubs (25)",
+      "lat": 47.35,
+      "lon": 6.85,
+      "currentFuel": "2 chaudières à granulés Hargassner de 58 kW chacune (116 kW cumulés), mises en service fin 2018. Consommation annuelle déclarée : 18,4 tonnes de granulés/an. Granulés confirmés explicitement par un retour d'expérience Fibois BFC.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2018,
+          "confidence": "confirme",
+          "note": "Retour d'expérience Fibois Bourgogne-Franche-Comté : combustible « granulés de bois » confirmé explicitement, 2×58 kW Hargassner, 18,4 t/an.",
+          "source": "https://fibois-bfc.fr/retour-experience/chaufferie-a-granules-commune-de-blamont-25310/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Mairie / service technique",
+          "org": "Commune de Blamont",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+blamont+25"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Fibois Bourgogne-Franche-Comté, retour d'expérience — https://fibois-bfc.fr/retour-experience/chaufferie-a-granules-commune-de-blamont-25310/"
+    },
+    {
+      "id": "commune-la-baffe-mairie-ecole",
+      "name": "Commune de La Baffe — mairie, école, salle des fêtes",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur communal aux granulés",
+      "city": "La Baffe",
+      "department": "Vosges (88)",
+      "lat": 48.17,
+      "lon": 6.63,
+      "currentFuel": "2 chaudières à granulés Ökofen de 48 kW chacune (96 kW cumulés), installées en 2010, chauffant mairie/école/salle des fêtes en réseau de chaleur. Consommation annuelle déclarée : 35 tonnes de granulés/an.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2010,
+          "confidence": "confirme",
+          "note": "Présentation du fournisseur de granulés Siat Braun/SIBAR (réunion des maires, SCoT Vosges Centrales) : commune, bâtiments et chiffres (puissance, coût, consommation) précisément nommés. Pas un article de presse indépendant, mais un cas documenté avec détails vérifiables.",
+          "source": "https://www.scot-vosges-centrales.fr/fichiers/page/Reunion_des_Maires_Pres_Finale_20oct012.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Mairie",
+          "org": "Commune de La Baffe",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+la+baffe"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Score de probabilité faible car le signal date de 2010 (décroissance liée à l'ancienneté) — mais le combustible granulés est ici confirmé, pas juste probable. À recontacter pour vérifier si l'installation est toujours active et si un fournisseur est déjà en place.",
+      "sourceSummary": "Présentation Siat Braun/SIBAR « Intérêt d'un chauffage aux granulés », diffusée par le SCoT Vosges Centrales — https://www.scot-vosges-centrales.fr/fichiers/page/Reunion_des_Maires_Pres_Finale_20oct012.pdf"
+    },
+    {
+      "id": "commune-weiterswiller",
+      "name": "Commune de Weiterswiller — presbytère, MJC, logements, école",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur communal aux granulés",
+      "city": "Weiterswiller",
+      "department": "Bas-Rhin (67)",
+      "lat": 48.83,
+      "lon": 7.38,
+      "currentFuel": "Cascade de 2 chaudières à granulés Guntamatic Biocom de 100 kW chacune (200 kW cumulés), chauffant en réseau de chaleur le presbytère, la MJC, 5 logements et l'école. Besoin annuel estimé à 200 000 kWh.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Présentation du fournisseur de granulés Siat Braun/SIBAR (réunion des maires, SCoT Vosges Centrales) : commune, bâtiments et chiffres précisément nommés. Date des travaux non précisée, antérieure à la présentation d'octobre 2012.",
+          "source": "https://www.scot-vosges-centrales.fr/fichiers/page/Reunion_des_Maires_Pres_Finale_20oct012.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Mairie",
+          "org": "Commune de Weiterswiller",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+weiterswiller"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Score de probabilité faible faute de date précise pour appliquer la décroissance (traité comme signal ancien) — mais le combustible granulés est confirmé. À recontacter pour vérifier l'état actuel de l'installation.",
+      "sourceSummary": "Présentation Siat Braun/SIBAR « Intérêt d'un chauffage aux granulés », diffusée par le SCoT Vosges Centrales — https://www.scot-vosges-centrales.fr/fichiers/page/Reunion_des_Maires_Pres_Finale_20oct012.pdf"
+    },
+    {
+      "id": "commune-wisches-mediatheque",
+      "name": "Commune de Wisches — médiathèque",
+      "type": "collectivite",
+      "sector": "Collectivité — bâtiment communal chauffé aux granulés",
+      "city": "Wisches",
+      "department": "Bas-Rhin (67)",
+      "lat": 48.53,
+      "lon": 7.25,
+      "currentFuel": "Chaudière à granulés Guntamatic Biostar de 15 kW chauffant la médiathèque communale (300 m²) et un logement de fonction attenant. Besoin annuel estimé à 30 000 kWh.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Présentation du fournisseur de granulés Siat Braun/SIBAR (réunion des maires, SCoT Vosges Centrales). Installation de petite puissance (15 kW) — potentiel de volume limité mais combustible confirmé.",
+          "source": "https://www.scot-vosges-centrales.fr/fichiers/page/Reunion_des_Maires_Pres_Finale_20oct012.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Mairie",
+          "org": "Commune de Wisches",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+wisches"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Très petite puissance (15 kW) : volume d'achat probablement marginal, mais confirme la pratique de chauffage aux granulés dans le secteur.",
+      "sourceSummary": "Présentation Siat Braun/SIBAR « Intérêt d'un chauffage aux granulés », diffusée par le SCoT Vosges Centrales — https://www.scot-vosges-centrales.fr/fichiers/page/Reunion_des_Maires_Pres_Finale_20oct012.pdf"
     }
   ]
 }
