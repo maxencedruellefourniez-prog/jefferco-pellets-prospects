@@ -107,7 +107,7 @@ export default async function ProspectPage({
                   rel="noreferrer"
                   className="mt-1 inline-block text-[var(--brand-dark)] hover:underline"
                 >
-                  Rechercher un contact →
+                  {ep.name ? "Voir la source →" : "Rechercher un contact →"}
                 </a>
               )}
             </div>

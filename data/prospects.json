@@ -197,10 +197,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction d'exploitation",
-          "org": "Thaon Énergie (ENGIE Solutions / SEM Terr'EnR)",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Thaon%20Energie%20ENGIE%20Solutions",
-          "note": "Exploitant identifié nommément — très bon point d'entrée pour évoquer un backup/complément granulés (chaufferie d'appoint) plutôt que la collectivité elle-même."
+          "role": "Directeur Général de la SEM Terr'EnR (co-actionnaire local du réseau, aux côtés d'ENGIE Solutions)",
+          "name": "Olivier Jodion",
+          "org": "Thaon Énergie / SEM Terr'EnR",
+          "note": "Nomination 11/03/2021, statut reconfirmé au 22/02/2026 sur le registre. Pas un poste \"achats\" dédié, mais le meilleur équivalent identifiable pour cette structure mono-projet.",
+          "searchUrl": "https://www.pappers.fr/entreprise/terrenr-880475058"
         }
       ],
       "status": "a_qualifier",
@@ -296,9 +297,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Service énergie / exploitant de la chaufferie",
-          "org": "Ville d'Épinal",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=chaufferie+biomasse+epinal"
+          "role": "Directeur Général",
+          "name": "Vincent Uricher",
+          "org": "Épinal Énergies & Environnement",
+          "note": "Nomination 14/11/2024 (récente). Matthieu Bonvoisin, Président depuis la même date. À noter : Vincent Uricher est aussi DG de Chalon'Energie et Moncia — probablement un rôle de direction régionale ENGIE Solutions couvrant plusieurs réseaux.",
+          "searchUrl": "https://www.societe.com/societe/epinal-energies-environnement-480568351.html"
         }
       ],
       "status": "a_qualifier",
@@ -1585,9 +1588,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "Chalon Énergie SA",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=chalon+energie"
+          "role": "Directeur Général, Administrateur",
+          "name": "Vincent Uricher",
+          "org": "Chalon'Energie SA",
+          "note": "Nomination 05/05/2025 (récente). Remplace Barthélémy Foubert, parti chez ENGIE (COO of ENGIE Local Energy). DG de la société dédiée à l'exploitation du réseau — interlocuteur combustible le plus pertinent.",
+          "searchUrl": "https://www.pappers.fr/entreprise/chalonenergie-726220098"
         }
       ],
       "status": "a_qualifier",
@@ -1615,9 +1620,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "Moncia / Soccram",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=soccram+montceau"
+          "role": "Directeur Général",
+          "name": "Vincent Uricher",
+          "org": "Moncia",
+          "note": "Nomination 19/12/2024 (récente). Mathieu Bonvoisin nommé Président à la même date. Moncia a repris la DSP du réseau à la Soccram depuis 2013.",
+          "searchUrl": "https://www.societe.com/societe/moncia-795282607.html"
         }
       ],
       "status": "a_qualifier",
@@ -1646,9 +1653,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "SECUA SNC",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=secua+autun"
+          "role": "Gérants (co-gérance)",
+          "name": "Nicolas Voltz et Jérôme Aguesse",
+          "org": "SECUA SNC (détenue par Dalkia France et Chauffage Urbain d'Autun)",
+          "note": "Nominations anciennes (2013/2014) — à reconfirmer avant tout contact, mais ce sont les gérants actuellement enregistrés au registre (vérifié 22/09/2026). Pertinent vu le remplacement de chaudière prévu en 2027.",
+          "searchUrl": "https://www.pappers.fr/entreprise/secua-societe-dexploitation-du-chauffage-urbain-dautun-420757031"
         }
       ],
       "status": "a_qualifier",
@@ -1677,9 +1686,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "Sarreguemines Énergie Confluence",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=sarreguemines+energie+confluence"
+          "role": "Président",
+          "name": "Benoît Dujardin",
+          "org": "Énergie Sarreguemines Confluences (filiale Dalkia)",
+          "note": "Nomination 23/09/2019 — ancienne, à reconfirmer avant tout contact. Seul représentant légal actuellement enregistré au registre (vérifié 22/09/2026).",
+          "searchUrl": "https://www.pappers.fr/entreprise/energie-sarreguemines-confluences-798025300"
         }
       ],
       "status": "a_qualifier",
@@ -1707,9 +1718,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
+          "role": "Directeur Général",
+          "name": "Benoît Schnell",
           "org": "Société Colmarienne de Chauffage Urbain (SCCU)",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=societe+colmarienne+de+chauffage+urbain"
+          "note": "Nomination 26/04/2024 (récente). Éric Straumann (maire de Colmar) est Président du conseil d'administration.",
+          "searchUrl": "https://www.pappers.fr/entreprise/societe-colmarienne-de-chauffage-urbain-916220106"
         }
       ],
       "status": "a_qualifier",
@@ -1737,9 +1750,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "Sens Bio Énergie Services",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=sens+bio+energie+services"
+          "role": "Directeur Général",
+          "name": "Jacinthe Delage",
+          "org": "Sens Bio Énergie Services (SBES)",
+          "note": "Nomination 18/09/2024 (récente). Benoît Martin est Président depuis le 01/07/2024. SBES gère le réseau sous DSP liée à ENGIE Solutions.",
+          "searchUrl": "https://www.pappers.fr/entreprise/sens-bio-energie-services-sbes-523352508"
         }
       ],
       "status": "a_qualifier",
@@ -1767,9 +1782,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Syndicat d'énergie",
-          "org": "SIED70",
-          "searchUrl": "https://www.sied70.fr/"
+          "role": "Responsable du service Énergies Renouvelables / Maîtrise de l'Énergie (EnR/MDE)",
+          "name": "Céline Chapelle",
+          "org": "SIED70 (Syndicat Intercommunal d'Énergie du Département de la Haute-Saône)",
+          "note": "En charge notamment du groupement d'achat de granulés bois du syndicat (https://www.sied70.fr/groupementachatgranules) et des chaufferies bois — le contact le plus directement pertinent trouvé dans toute la recherche.",
+          "searchUrl": "https://www.linkedin.com/in/c%C3%A9line-chapelle-95178684/"
         }
       ],
       "status": "a_qualifier",
@@ -1797,9 +1814,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Syndicat d'énergie",
-          "org": "SIED70",
-          "searchUrl": "https://www.sied70.fr/"
+          "role": "Responsable du service Énergies Renouvelables / Maîtrise de l'Énergie (EnR/MDE)",
+          "name": "Céline Chapelle",
+          "org": "SIED70 (Syndicat Intercommunal d'Énergie du Département de la Haute-Saône)",
+          "note": "En charge notamment du groupement d'achat de granulés bois du syndicat (https://www.sied70.fr/groupementachatgranules) et des chaufferies bois — le contact le plus directement pertinent trouvé dans toute la recherche.",
+          "searchUrl": "https://www.linkedin.com/in/c%C3%A9line-chapelle-95178684/"
         }
       ],
       "status": "a_qualifier",
