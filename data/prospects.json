@@ -1,0 +1,273 @@
+{
+  "weights": {
+    "bciat": 50,
+    "bcib": 40,
+    "reseau_chaleur_biomasse": 45,
+    "icpe_combustion_biomasse": 25,
+    "irep_biomasse": 30,
+    "cee_biomasse": 30,
+    "presse_conversion": 20,
+    "secteur_energivore": 10
+  },
+  "prospects": [
+    {
+      "id": "fromagerie-ermitage-bulgneville",
+      "name": "Fromagerie de l'Ermitage",
+      "type": "industriel",
+      "sector": "Agroalimentaire — fromagerie",
+      "city": "Bulgnéville",
+      "postalCode": "88140",
+      "department": "Vosges (88)",
+      "lat": 48.202,
+      "lon": 5.833,
+      "currentFuel": "Chaufferie bois/gaz mise en service en 2012 (investissement de 4 M€, dispositif BCIAT) — combustible exact (plaquettes vs granulés) à confirmer sur site.",
+      "signals": [
+        {
+          "type": "bciat",
+          "note": "Investissement de 4 M€ dans une installation biomasse soutenue par le dispositif BCIAT.",
+          "source": "https://www.usinenouvelle.com/article/la-belle-energie-de-la-biomasse.N204577"
+        },
+        {
+          "type": "secteur_energivore",
+          "source": "https://www.usinenouvelle.com/article/la-belle-energie-de-la-biomasse.N204577"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction / responsable production",
+          "org": "Fromagerie de l'Ermitage",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=fromagerie+de+l%27ermitage+bulgneville",
+          "note": "Adresse connue : 718 Rue de la Division Leclerc, 88140 Bulgnéville. Aucun contact nominatif trouvé en source ouverte — à identifier via Societe.com/LinkedIn."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "L'Usine Nouvelle, « La belle énergie de la biomasse » — https://www.usinenouvelle.com/article/la-belle-energie-de-la-biomasse.N204577"
+    },
+    {
+      "id": "scierie-gaiffe-champ-le-duc",
+      "name": "Scierie Gaiffe",
+      "type": "industriel",
+      "sector": "Industrie du bois — scierie / raboterie",
+      "city": "Champ-le-Duc",
+      "postalCode": "88600",
+      "department": "Vosges (88)",
+      "lat": 48.203,
+      "lon": 6.718,
+      "currentFuel": "Chaufferie biomasse 10 MWth / 1,4 MWe mise en service en 2023 pour alimenter une dizaine de séchoirs à bois — fonctionne aux connexes de scierie, pas aux granulés à ce jour.",
+      "signals": [
+        {
+          "type": "bcib",
+          "note": "Profil exactement dans la cible du dispositif BCIB (industrie du bois, séchage). Investissement global annoncé de 50 à 60 M€. Lauréat officiel BCIB à confirmer sur les listes ADEME.",
+          "source": "https://www.usinenouvelle.com/article/le-vosgien-gaiffe-injecte-50-millions-d-euros-en-vue-de-relocaliser-la-premiere-transformation-du-bois.N1799332"
+        },
+        {
+          "type": "presse_conversion",
+          "source": "https://www.tracesecritesnews.fr/actualite/les-outils-de-sciage-du-vosgien-gaiffe-mobilisent-un-investissement-de-60-millions-d-euros-212599"
+        },
+        {
+          "type": "secteur_energivore",
+          "source": "https://www.gaiffe.com/fr/accueil.html"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction générale / responsable énergie",
+          "org": "Groupe Gaiffe",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Gaiffe%20scierie%20Vosges",
+          "note": "Entreprise familiale, siège à Champ-le-Duc (88). Contact nominatif à identifier."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "L'Usine Nouvelle + Traces Écrites News + gaiffe.com (voir signaux)"
+    },
+    {
+      "id": "bel-clery-le-petit",
+      "name": "Groupe Bel — site de production de Cléry-le-Petit",
+      "type": "industriel",
+      "sector": "Agroalimentaire — fromagerie industrielle",
+      "city": "Cléry-le-Petit",
+      "postalCode": "55110",
+      "department": "Meuse (55)",
+      "lat": 49.283,
+      "lon": 5.145,
+      "currentFuel": "Chaudière biomasse 5 MWth (7 t/h vapeur) en service depuis février 2012, alimentée par 14 000 t/an de plaquettes forestières, appoint fioul lourd conservé. Pas de granulés identifiés — silo de 900 m³.",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2010,
+          "note": "Lauréat BCIAT 2010, financement ADEME à 54% des investissements éligibles. Fiche « Exemples à suivre » ADEME/ficel CIBE consultée intégralement.",
+          "source": "https://cibe.fr/wp-content/uploads/2017/09/FICHE-2012-5-MW-BEL-55.pdf"
+        },
+        {
+          "type": "secteur_energivore",
+          "source": "https://cibe.fr/wp-content/uploads/2017/09/FICHE-2012-5-MW-BEL-55.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Directeur de site (au moment de la fiche, déc. 2013)",
+          "name": "Joël Guais",
+          "org": "Groupe Bel",
+          "note": "Nom cité nommément dans la fiche ADEME/CIBE de décembre 2013. À vérifier avant tout contact : le poste a probablement changé de titulaire depuis."
+        },
+        {
+          "role": "Exploitant de la chaufferie (contrat d'exploitation)",
+          "name": "Francis Moussu (Directeur régional Centre-Est, en 2013)",
+          "org": "IDEX Énergies",
+          "note": "IDEX Énergies exploite l'installation sous contrat et gère l'approvisionnement biomasse — interlocuteur technique naturel pour évoquer un complément/une bascule granulés. Poste à reconfirmer."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Fiche ADEME/CIBE « Chaufferie biomasse du site de production de BEL à Cléry-le-Petit (55) », EMR 95 — déc. 2013 — https://cibe.fr/wp-content/uploads/2017/09/FICHE-2012-5-MW-BEL-55.pdf"
+    },
+    {
+      "id": "kronenbourg-obernai",
+      "name": "Brasseries Kronenbourg — site d'Obernai",
+      "type": "industriel",
+      "sector": "Agroalimentaire — brasserie",
+      "city": "Obernai",
+      "postalCode": "67210",
+      "department": "Bas-Rhin (67)",
+      "lat": 48.462,
+      "lon": 7.481,
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2021,
+          "note": "Cité parmi les 17 lauréats 2021 de l'appel à projets Chaleur Industrielle Biomasse (BCIAT).",
+          "source": "https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/"
+        },
+        {
+          "type": "secteur_energivore",
+          "source": "https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Responsable énergie / environnement du site",
+          "org": "Brasseries Kronenbourg (groupe Carlsberg)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Kronenbourg%20Obernai%20energie",
+          "note": "Grand groupe — process d'achat probablement centralisé, prévoir un point d'entrée local (site) et un point d'entrée groupe."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Bioénergie Promotion, « Les 17 lauréats 2021 de l'appel à projet de Chaleur Industrielle Biomasse » — https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/ (détail du site d'Obernai à reconfirmer dans la liste complète des 17 lauréats)"
+    },
+    {
+      "id": "thaon-les-vosges-reseau-chaleur",
+      "name": "Ville de Thaon-les-Vosges — réseau de chaleur",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Thaon-les-Vosges",
+      "postalCode": "88150",
+      "department": "Vosges (88)",
+      "lat": 48.267,
+      "lon": 6.433,
+      "currentFuel": "Réseau de chaleur biomasse inauguré en décembre 2025 : ~4 700 t/an de plaquettes forestières sourcées dans un rayon de 45 km, chaufferie gaz d'appoint pour ~5% de la production.",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2025,
+          "note": "Réseau exploité par Thaon Énergie (ENGIE Solutions + SEM Terr'EnR) dans le cadre d'une DSP de 25 ans.",
+          "source": "https://www.engie-solutions.com/fr/presse/thaon-les-Vosges-inaugure-son-reseau-chaleur"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction d'exploitation",
+          "org": "Thaon Énergie (ENGIE Solutions / SEM Terr'EnR)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Thaon%20Energie%20ENGIE%20Solutions",
+          "note": "Exploitant identifié nommément — très bon point d'entrée pour évoquer un backup/complément granulés (chaufferie d'appoint) plutôt que la collectivité elle-même."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "ENGIE Solutions + Smart City Mag — https://www.engie-solutions.com/fr/presse/thaon-les-Vosges-inaugure-son-reseau-chaleur ; https://www.smartcitymag.fr/article/1498/comment-thaon-les-vosges-8500-hab-deploie-son-premier-reseau-de-chaleur"
+    },
+    {
+      "id": "toul-reseau-chaleur",
+      "name": "Ville de Toul — réseau de chaleur",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Toul",
+      "postalCode": "54200",
+      "department": "Meurthe-et-Moselle (54)",
+      "lat": 48.679,
+      "lon": 5.89,
+      "currentFuel": "Réseau de chaleur présenté comme alimenté à 100% par énergie renouvelable via chaudière biomasse — détails techniques (puissance, exploitant, part granulés/plaquettes) non vérifiés en source primaire.",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "note": "Information glanée via recherche agrégée (Le Moniteur / ENGIE Solutions) — à revérifier auprès d'une source primaire avant contact.",
+          "source": "https://www.lemoniteur.fr/produits-et-materiels/reseau-de-chaleur/dans-lest-les-reseaux-de-chaleur-des-champs-sourient-a-engie-solutions.XIP7FBKWTJBV3PERU52FEUIWQQ.html"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Service énergie / DSP chauffage urbain",
+          "org": "Mairie de Toul",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=reseau+de+chaleur+toul"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "À vérifier avant prospection : exploitant exact, mix énergétique réel, puissance installée.",
+      "sourceSummary": "Le Moniteur, « Dans l'Est, les réseaux de chaleur des champs sourient à Engie Solutions » — https://www.lemoniteur.fr/produits-et-materiels/reseau-de-chaleur/dans-lest-les-reseaux-de-chaleur-des-champs-sourient-a-engie-solutions.XIP7FBKWTJBV3PERU52FEUIWQQ.html"
+    },
+    {
+      "id": "nancy-reseau-chaleur",
+      "name": "Métropole du Grand Nancy — réseau de chaleur",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Nancy",
+      "postalCode": "54000",
+      "department": "Meurthe-et-Moselle (54)",
+      "lat": 48.692,
+      "lon": 6.184,
+      "currentFuel": "Réseau de chaleur d'environ 11 km alimenté à ~60% par énergies renouvelables — part biomasse/bois-énergie à confirmer précisément (mix possible avec UVE/géothermie).",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "note": "Réseau de grande taille, probablement alimenté en plaquettes (pas granulés) — pertinent surtout pour un appoint/backup. Détails à vérifier en source primaire (France Chaleur Urbaine).",
+          "source": "https://france-chaleur-urbaine.beta.gouv.fr/reseaux-chaleur"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction énergie / exploitant du réseau",
+          "org": "Métropole du Grand Nancy",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=r%C3%A9seau%20de%20chaleur%20Nancy"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Priorité de qualification plus basse : grand réseau urbain, probablement plaquettes forestières en base plutôt que granulés. À confirmer via l'export France Chaleur Urbaine (data.gouv.fr).",
+      "sourceSummary": "France Chaleur Urbaine (data.gouv.fr) — https://france-chaleur-urbaine.beta.gouv.fr/reseaux-chaleur"
+    },
+    {
+      "id": "epinal-chaufferie-biomasse",
+      "name": "Ville d'Épinal — chaufferie biomasse",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Épinal",
+      "postalCode": "88000",
+      "department": "Vosges (88)",
+      "lat": 48.174,
+      "lon": 6.449,
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "note": "Chaufferie biomasse mentionnée en presse locale — détails techniques (puissance, combustible, exploitant) non vérifiés en source primaire.",
+          "source": "https://actu88.fr/epinal-lequipe-de-la-chaufferie-biomasse-sont-a-pied-doeuvre/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Service énergie / exploitant de la chaufferie",
+          "org": "Ville d'Épinal",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=chaufferie+biomasse+epinal"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "À vérifier avant prospection : exploitant exact, puissance, mix énergétique.",
+      "sourceSummary": "Actu88, « Épinal - L'équipe de la chaufferie biomasse est à pied d'oeuvre ! » — https://actu88.fr/epinal-lequipe-de-la-chaufferie-biomasse-sont-a-pied-doeuvre/"
+    }
+  ]
+}

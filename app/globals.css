@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --brand: #2f6d3f;
+  --brand-dark: #1f4a2a;
+  --bg: #f6f7f4;
+}
+
+body {
+  background: var(--bg);
+  color: #1a1a1a;
+}
+
+.score-high {
+  background: #dcf5e2;
+  color: #1f6b32;
+}
+
+.score-medium {
+  background: #fdf0d5;
+  color: #9a6a00;
+}
+
+.score-low {
+  background: #f1f1f1;
+  color: #666;
+}
