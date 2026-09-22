@@ -37,10 +37,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction / responsable production",
+          "role": "Responsable approvisionnement",
+          "name": "David Maulbon",
           "org": "Fromagerie de l'Ermitage",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=fromagerie+de+l%27ermitage+bulgneville",
-          "note": "Adresse connue : 718 Rue de la Division Leclerc, 88140 Bulgnéville. Aucun contact nominatif trouvé en source ouverte — à identifier via Societe.com/LinkedIn."
+          "note": "Titre de poste correspondant exactement (« Responsable approvisionnement ») trouvé via profil LinkedIn public. Contact de secours : Delphine Picard, Directrice générale (Union Laitière Vittelloise).",
+          "searchUrl": "https://www.linkedin.com/in/david-maulbon-33920b224/"
         }
       ],
       "status": "a_qualifier",
@@ -164,10 +165,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Responsable énergie / environnement du site",
+          "role": "Directeur de la Brasserie Kronenbourg à Obernai",
+          "name": "Stéphane Comte",
           "org": "Brasseries Kronenbourg (groupe Carlsberg)",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Kronenbourg%20Obernai%20energie",
-          "note": "Grand groupe — process d'achat probablement centralisé, prévoir un point d'entrée local (site) et un point d'entrée groupe."
+          "note": "Cité nommément sur le site officiel kronenbourg.com (octobre 2024). A aussi occupé le poste de VP Supply Chain France 2022-2025, remplacé à ce poste par Marek Krzysztoporski depuis le 01/09/2025 — mais reste Directeur du site d'Obernai selon la source retenue.",
+          "searchUrl": "https://kronenbourg.com/newsroom/renouvellement-du-label-alsace-excellence/"
         }
       ],
       "status": "a_qualifier",
@@ -1497,9 +1499,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Mairie",
+          "role": "Maire",
+          "name": "Daniel Lagarde",
           "org": "Commune de La Baffe",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+la+baffe"
+          "note": "Élu au 1er tour des municipales du 15/03/2026, liste unique, 100% des voix.",
+          "searchUrl": "https://datan.fr/elections/resultats/vosges-88/ville_la-baffe"
         }
       ],
       "status": "a_qualifier",
@@ -1527,9 +1531,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Mairie",
+          "role": "Maire",
+          "name": "Claude Eichwald",
           "org": "Commune de Weiterswiller",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+weiterswiller"
+          "note": "Réélu au 1er tour des municipales du 15/03/2026 (100% des voix), déjà en poste 2020-2026.",
+          "searchUrl": "https://datan.fr/elections/resultats/bas-rhin-67/ville_weiterswiller"
         }
       ],
       "status": "a_qualifier",
@@ -1557,9 +1563,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Mairie",
+          "role": "Maire",
+          "name": "Alain Ferry",
           "org": "Commune de Wisches",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+wisches"
+          "note": "Plusieurs sources concordantes (Datan, France Info) confirment sa réélection en mars 2026 ; maire depuis 1989.",
+          "searchUrl": "https://datan.fr/elections/resultats/bas-rhin-67/ville_wisches"
         }
       ],
       "status": "a_qualifier",
@@ -1877,9 +1885,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Commune / Pfalzwerke AG (ingénierie)",
+          "role": "Klimaschutzmanagerin (Gemeindeverwaltung)",
+          "name": "Natalia Koch",
           "org": "Gemeinde Haßloch",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Ha%C3%9Floch%20Nahw%C3%A4rme%20Pfalzwerke"
+          "note": "Page de contact officielle et actuelle de la commune. Contact de secours : Tobias Meyer (CDU), Bürgermeister de Haßloch.",
+          "searchUrl": "https://www.hassloch.de/gv_hassloch/Wirtschaften,%20Bauen,%20Wohnen%20&%20Umwelt/Umwelt/Kontakt%20und%20Ansprechpartner/"
         }
       ],
       "status": "a_qualifier",
@@ -1907,9 +1917,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction de l'établissement",
-          "org": "Jugendeinrichtung Schloss Stutensee",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Schloss%20Stutensee%20Jugendeinrichtung"
+          "role": "Geschäftsführer",
+          "name": "Jens Brandt",
+          "org": "Jugendeinrichtung Schloss Stutensee gGmbH",
+          "note": "Page « Team » officielle et actuelle de l'établissement ; en poste depuis décembre 2017 selon sources concordantes.",
+          "searchUrl": "https://www.jugend-schloss.de/team"
         }
       ],
       "status": "a_qualifier",
@@ -1937,9 +1949,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "badenova AG & Co. KG",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=badenova%20Freiburg%20Landwasser%20Holzvergaser"
+          "role": "Geschäftsführer",
+          "name": "Klaus Preiser",
+          "org": "badenova WärmePlus GmbH & Co. KG",
+          "note": "Cité en lien direct avec ce projet ; fonction de Geschäftsführer confirmée par un tag de page dédié du Badische Zeitung.",
+          "searchUrl": "https://www.stadt-und-werk.de/k21-meldungen/gruene-energie-fuer-freiburg-landwasser/"
         }
       ],
       "status": "a_qualifier",
@@ -2208,9 +2222,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
+          "role": "Directeur / Président-directeur général",
+          "name": "Manuel Godinat",
           "org": "Thermobois SA",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Thermobois%20SA%20Porrentruy"
+          "note": "ATTENTION — information de 2012 (prise de fonction), non reconfirmée récemment (site thermobois.ch inaccessible lors de la vérification, erreur 503). À reconfirmer avant usage commercial.",
+          "searchUrl": "https://www.rfj.ch/"
         }
       ],
       "status": "a_qualifier",
@@ -2539,9 +2555,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant du réseau de chauffage urbain",
+          "role": "Projektleiter (Heizwerk Bahnhof)",
+          "name": "Stefan Crollet",
           "org": "IWB (Industrielle Werke Basel)",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=IWB%20Basel%20Heizwerk%20Bahnhof%20Pellets"
+          "note": "Contact directement désigné pour ce projet sur la page officielle IWB (+41 61 275 58 26, stefan.crollet@iwb.ch).",
+          "searchUrl": "http://www.iwb.ch/servicecenter/bau-anlagenprojekte/waermeversorgung/heizwerk-bahnhof"
         }
       ],
       "status": "a_qualifier",
@@ -2570,9 +2588,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Commune",
-          "org": "Commune de Nassogne",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Commune%20de%20Nassogne%20Belgique"
+          "role": "Chef d'école / Directeur",
+          "name": "Olivier Bande",
+          "org": "École communale d'Ambly (commune de Nassogne)",
+          "note": "Page actuelle du site officiel des écoles de Nassogne. Contact de secours : Marc Quirynen, Bourgmestre de Nassogne (réélu octobre 2024).",
+          "searchUrl": "https://www.lesecolesdenassogne.be/ecoles-de-la-wamme/ecole-dambly/"
         }
       ],
       "status": "a_qualifier",
@@ -2601,9 +2621,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Parc naturel",
+          "role": "Directeur",
+          "name": "Vincent Vander Heyden",
           "org": "Parc Naturel des Deux Ourthes",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Parc%20Naturel%20des%20Deux%20Ourthes"
+          "note": "Coordonnées professionnelles directes sur le site officiel du parc.",
+          "searchUrl": "https://pndo.be/fr/contact/"
         }
       ],
       "status": "a_qualifier",
@@ -2718,9 +2740,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Commune",
+          "role": "Bourgmestre",
+          "name": "Gérard Zoller",
           "org": "Commune de Saeul",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Commune%20de%20Saeul%20Luxembourg"
+          "note": "Page officielle actuelle du site communal.",
+          "searchUrl": "https://saeul.lu/administration/politique/le-bourgmestre/"
         }
       ],
       "status": "a_qualifier",
@@ -2748,9 +2772,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction",
-          "org": "Foyer Atert",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Foyer%20Atert%20Useldange"
+          "role": "Directrice (entité « De Park », gestionnaire du Foyer Atert)",
+          "name": "Carmen Recken",
+          "org": "Foyer Atert (De Park / CHNP)",
+          "note": "ATTENTION — information de juillet 2022 (inauguration), non reconfirmée depuis. À reconfirmer via depark.lu avant usage.",
+          "searchUrl": "https://www.depark.lu/2022/07/04/inauguration-officielle-du-foyer-atert-a-useldange/"
         }
       ],
       "status": "a_qualifier",
@@ -2777,9 +2803,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction",
-          "org": "Maison des Aînés Op Acker",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Maison%20des%20Aines%20Op%20Acker%20Bascharage"
+          "role": "Chargé de direction",
+          "name": "Daniel Lemal",
+          "org": "Maison des Aînés « Op Acker » (SERVIOR)",
+          "note": "Cité nommément dans un article officiel SERVIOR (janvier 2025, ouverture de l'établissement).",
+          "searchUrl": "https://www.servior.lu/emmenagement-a-op-acker-quand-la-fete-cache-un-veritable-exploit/"
         }
       ],
       "status": "a_qualifier",
@@ -2807,9 +2835,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "LuxEnergie",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=LuxEnergie%20Kirchberg%20biomasse"
+          "role": "Administrateur délégué (CEO)",
+          "name": "Paul Weis",
+          "org": "LuxEnergie S.A.",
+          "note": "LuxEnergie exploite les 3 centrales biomasse du groupe (Kirchberg, Bettembourg, Strassen) — même contact de direction générale pour les trois.",
+          "searchUrl": "https://en.paperjam.lu/guide/biography/0581795100/paul-weis"
         }
       ],
       "status": "a_qualifier",
@@ -2838,9 +2868,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "LuxEnergie",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=LuxEnergie%20Bettembourg%20biomasse"
+          "role": "Administrateur délégué (CEO)",
+          "name": "Paul Weis",
+          "org": "LuxEnergie S.A.",
+          "note": "LuxEnergie exploite les 3 centrales biomasse du groupe (Kirchberg, Bettembourg, Strassen) — même contact de direction générale pour les trois.",
+          "searchUrl": "https://en.paperjam.lu/guide/biography/0581795100/paul-weis"
         }
       ],
       "status": "a_qualifier",
@@ -2869,9 +2901,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Exploitant",
-          "org": "LuxEnergie",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=LuxEnergie%20Strassen%20biomasse"
+          "role": "Administrateur délégué (CEO)",
+          "name": "Paul Weis",
+          "org": "LuxEnergie S.A.",
+          "note": "LuxEnergie exploite les 3 centrales biomasse du groupe (Kirchberg, Bettembourg, Strassen) — même contact de direction générale pour les trois.",
+          "searchUrl": "https://en.paperjam.lu/guide/biography/0581795100/paul-weis"
         }
       ],
       "status": "a_qualifier",
@@ -2899,9 +2933,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Mairie / gestionnaire de la chaufferie",
+          "role": "Maire",
+          "name": "Sébastien Guillermo",
           "org": "Commune de Bourmont-entre-Meuse-et-Mouzon",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Bourmont%20chaufferie%20biomasse%20Haute-Marne"
+          "note": "Élu au 1er tour des municipales du 15/03/2026, liste unique, 100% des voix. Aucun contact distinct trouvé pour un service dédié à la chaufferie — le maire reste l'interlocuteur institutionnel.",
+          "searchUrl": "https://datan.fr/elections/resultats/haute-marne-52/ville_bourmont-entre-meuse-et-mouzon"
         }
       ],
       "status": "a_qualifier",
