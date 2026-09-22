@@ -278,13 +278,20 @@
       "department": "Vosges (88)",
       "lat": 48.174,
       "lon": 6.449,
-      "fuelConfirmation": "inconnu",
+      "fuelConfirmation": "plaquettes",
       "signals": [
         {
           "type": "reseau_chaleur_biomasse",
           "confidence": "a_verifier",
           "note": "Chaufferie biomasse mentionnée en presse locale — détails techniques (puissance, combustible, exploitant) non vérifiés en source primaire.",
           "source": "https://actu88.fr/epinal-lequipe-de-la-chaufferie-biomasse-sont-a-pied-doeuvre/"
+        },
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2015,
+          "confidence": "indice",
+          "note": "Presse spécialisée (Bioénergie Promotion) : « la forme de plaquettes de bois de plusieurs centimètres ». Réseau à 85% bois, très proche de Damblain (~30 km) — cible prioritaire malgré l'usage actuel de plaquettes.",
+          "source": "https://www.bioenergie-promotion.fr/43784/epinal-monte-la-part-du-bois-dans-le-mix-de-son-reseau-de-chaleur-a-85/"
         }
       ],
       "entryPoints": [
@@ -296,7 +303,8 @@
       ],
       "status": "a_qualifier",
       "notes": "À vérifier avant prospection : exploitant exact, puissance, mix énergétique.",
-      "sourceSummary": "Actu88, « Épinal - L'équipe de la chaufferie biomasse est à pied d'oeuvre ! » — https://actu88.fr/epinal-lequipe-de-la-chaufferie-biomasse-sont-a-pied-doeuvre/"
+      "sourceSummary": "Actu88, « Épinal - L'équipe de la chaufferie biomasse est à pied d'oeuvre ! » — https://actu88.fr/epinal-lequipe-de-la-chaufferie-biomasse-sont-a-pied-doeuvre/",
+      "currentFuel": "Réseau de chaleur alimenté à 85% par la biomasse (cogénération de Razimont + chaufferies du Plateau de la Justice et de la Colombière, mise en service 2015). Combustible confirmé : plaquettes de bois forestières, approvisionnement dans un rayon de 50-100 km autour d'Épinal (fournisseur Soven, filiale Engie)."
     },
     {
       "id": "reseau-de-saint-blin-saint-blin",
@@ -1554,6 +1562,279 @@
       "status": "a_qualifier",
       "notes": "Très petite puissance (15 kW) : volume d'achat probablement marginal, mais confirme la pratique de chauffage aux granulés dans le secteur.",
       "sourceSummary": "Présentation Siat Braun/SIBAR « Intérêt d'un chauffage aux granulés », diffusée par le SCoT Vosges Centrales — https://www.scot-vosges-centrales.fr/fichiers/page/Reunion_des_Maires_Pres_Finale_20oct012.pdf"
+    },
+    {
+      "id": "chalon-energie-aubepins",
+      "name": "Chalon Énergie — chaufferie des Aubépins",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Chalon-sur-Saône",
+      "department": "Saône-et-Loire (71)",
+      "lat": 46.78,
+      "lon": 4.85,
+      "currentFuel": "Chaudière biomasse de 4,9 MW (arrêté 2018) au sein d'une chaufferie mixte gaz/biomasse (39,4 MW cumulés) alimentant le réseau de chaleur urbain du quartier des Aubépins. Arrêté ICPE : biomasse définie comme mélange de copeaux, broyats, sciures, écorces, plaquettes forestières et de scierie, bois déchiqueté — pas de granulés.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2018,
+          "confidence": "confirme",
+          "note": "Arrêté préfectoral d'enregistrement ICPE n°DCL-BRENV-2018-11-6 lu intégralement (OCR) : chaudière biomasse G8, 4,9 MW.",
+          "source": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005401173"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Chalon Énergie SA",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=chalon+energie"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Arrêté préfectoral ICPE (Géorisques) — https://www.georisques.gouv.fr/risques/installations/donnees/details/0005401173"
+    },
+    {
+      "id": "moncia-soccram-montceau",
+      "name": "Moncia - Soccram — chaufferie urbaine et hôpital",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain + hôpital",
+      "city": "Montceau-les-Mines",
+      "department": "Saône-et-Loire (71)",
+      "lat": 46.677,
+      "lon": 4.365,
+      "currentFuel": "Chaudière biomasse de 10,5 MW (autorisation 2015) desservant un réseau de chaleur urbain et l'hôpital de Montceau-les-Mines. Arrêté ICPE : même définition biomasse générique (copeaux, broyats, sciures, écorces, plaquettes) — pas de granulés.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2015,
+          "confidence": "confirme",
+          "note": "Arrêté préfectoral lu intégralement (OCR, pages 1-20) : chaudière biomasse 10,5 MW dans un ensemble mixte desservant réseau de chaleur + chaufferie vapeur hôpital.",
+          "source": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005402057"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Moncia / Soccram",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=soccram+montceau"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Score sous la barre des 40 uniquement à cause de l'ancienneté de l'arrêté (2015) — installation bien réelle et bien documentée (texte intégral lu), desservant notamment un hôpital. Conservé car le profil (hôpital + réseau urbain) est un type de client rare dans la base.",
+      "sourceSummary": "Arrêté préfectoral ICPE (Géorisques) — https://www.georisques.gouv.fr/risques/installations/donnees/details/0005402057"
+    },
+    {
+      "id": "secua-autun",
+      "name": "SECUA — chaufferie urbaine d'Autun (remplacement de chaudière biomasse 2027)",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Autun",
+      "department": "Saône-et-Loire (71)",
+      "lat": 46.95,
+      "lon": 4.3,
+      "currentFuel": "Réseau de chaleur urbain d'Autun, 28,89 MW au total. Remplacement en cours de la chaudière biomasse n°1 (8 MW) par une nouvelle chaudière biomasse de 6,25 MW, mise en service prévue septembre 2027. Combustible exact non précisé dans les pages consultées de l'arrêté de 2026.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2026,
+          "confidence": "confirme",
+          "note": "Arrêté préfectoral de prescriptions complémentaires du 31/03/2026 : remplacement programmé de la chaudière biomasse existante (8 MW) par une nouvelle unité de 6,25 MW, mise en service prévue septembre 2027.",
+          "source": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005401262"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "SECUA SNC",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=secua+autun"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "FENÊTRE D'OPPORTUNITÉ CONCRÈTE : le choix du combustible pour la nouvelle chaudière (mise en service sept. 2027) n'est vraisemblablement pas encore figé. Prospect prioritaire à contacter avant la mise en service.",
+      "sourceSummary": "Arrêté préfectoral ICPE (Géorisques) — https://www.georisques.gouv.fr/risques/installations/donnees/details/0005401262"
+    },
+    {
+      "id": "sarreguemines-energie-confluence",
+      "name": "Sarreguemines Énergie Confluence",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur / énergie de quartier",
+      "city": "Sarreguemines",
+      "department": "Moselle (57)",
+      "lat": 49.109,
+      "lon": 7.062,
+      "currentFuel": "2 chaudières biomasse de 4,7 MW chacune + cogénération gaz 10,1 MW (27,6 MW cumulés, arrêté 2022). Biomasse définie comme bois, produits connexes de scierie et chutes de bois brut — pas de granulés.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2022,
+          "confidence": "confirme",
+          "note": "Arrêté préfectoral d'enregistrement du 09/12/2022 lu intégralement (OCR) : 2 chaudières biomasse de 4,7 MW.",
+          "source": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0100007291"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Sarreguemines Énergie Confluence",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=sarreguemines+energie+confluence"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Arrêté préfectoral ICPE (Géorisques) — https://www.georisques.gouv.fr/risques/installations/donnees/details/0100007291"
+    },
+    {
+      "id": "sccu-colmar",
+      "name": "SCCU — centrale thermique bois du réseau de chauffage urbain de Colmar",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Colmar",
+      "department": "Haut-Rhin (68)",
+      "lat": 48.079,
+      "lon": 7.359,
+      "currentFuel": "Chaudière bois de 8 MW (chaudière n°5) au sein d'une installation de combustion classée grande installation (rubrique 3110, 61,6 MW cumulés avec 3 chaudières gaz). Combustible désigné « bois/biomasse » sans précision granulés/plaquettes ; à cette échelle (réseau urbain historique, ex-charbon), les plaquettes forestières sont la pratique standard mais ce n'est pas confirmé texto par l'arrêté.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2022,
+          "confidence": "confirme",
+          "note": "Arrêté de prescriptions complémentaires du 06/04/2022 lu intégralement (OCR) : « Installation de combustion fonctionnant au bois [...] Chaudière n°5 de 8 MW [...] seule la biomasse est autorisée en tant que combustible. » Principal réseau de chaleur biomasse du Haut-Rhin — classé en rubrique 3110, absent d'une recherche limitée à la rubrique 2910.",
+          "source": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0006700387"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Société Colmarienne de Chauffage Urbain (SCCU)",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=societe+colmarienne+de+chauffage+urbain"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Arrêté préfectoral ICPE (Géorisques) — https://www.georisques.gouv.fr/risques/installations/donnees/details/0006700387"
+    },
+    {
+      "id": "sens-bio-energie",
+      "name": "Sens Bio Énergie Services",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain",
+      "city": "Sens",
+      "department": "Yonne (89)",
+      "lat": 48.197,
+      "lon": 3.283,
+      "currentFuel": "2 chaudières « Bois » de 3 MW chacune (appoint) au sein d'une chaufferie mixte gaz/biomasse desservant le réseau de chaleur urbain de Sens. Le tableau récapitulatif de l'arrêté indique seulement « Bois », sans préciser granulés ou plaquettes.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2019,
+          "confidence": "confirme",
+          "note": "Arrêté préfectoral du 22/01/2019 lu intégralement (OCR) : « Chaudière 5 — 3 MW — Bois — Appoint », « Chaudière 6 — 3 MW — Bois — Appoint ».",
+          "source": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005401474"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Sens Bio Énergie Services",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=sens+bio+energie+services"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Arrêté préfectoral ICPE (Géorisques) — https://www.georisques.gouv.fr/risques/installations/donnees/details/0005401474"
+    },
+    {
+      "id": "sied70-gy",
+      "name": "SIED70 — réseau de chaleur biomasse de Gy",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse (collège, gymnase, EHPAD)",
+      "city": "Gy",
+      "department": "Haute-Saône (70)",
+      "lat": 47.4,
+      "lon": 5.815,
+      "currentFuel": "Chaufferie biomasse desservant un collège, un gymnase, un pôle éducatif et un EHPAD (extension septembre 2024, 4 bâtiments raccordés). Combustible exact non précisé par le SIED70 ; hypothèse la plus probable = plaquettes forestières locales (syndicat rural), non confirmée.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2024,
+          "confidence": "confirme",
+          "note": "Communication institutionnelle du SIED70 (Syndicat Intercommunal d'Énergie de la Haute-Saône) sur sa propre infrastructure : extension du réseau à un EHPAD en septembre 2024. Le SIED70 annonce 9 nouvelles chaufferies bois prévues sur 3 ans dans le département — pipeline de prospects à suivre.",
+          "source": "https://www.sied70.fr/actualite/2025-02-14_concours_-j-aime_ma_chaudiere_bois-_-_le_sied_70-_laureat_2025-_declare_sa_flamme_a_sa_chaufferie_biomasse_de_gy"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Syndicat d'énergie",
+          "org": "SIED70",
+          "searchUrl": "https://www.sied70.fr/"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "SIED70 (Syndicat Intercommunal d'Énergie du Département de la Haute-Saône) — https://www.sied70.fr/actualite/2025-02-14_concours_-j-aime_ma_chaudiere_bois-_-_le_sied_70-_laureat_2025-_declare_sa_flamme_a_sa_chaufferie_biomasse_de_gy"
+    },
+    {
+      "id": "sied70-apremont",
+      "name": "SIED70 — chaufferie biomasse d'Apremont",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse (école, périscolaire, salle des fêtes)",
+      "city": "Apremont",
+      "department": "Haute-Saône (70)",
+      "lat": 47.62,
+      "lon": 6.13,
+      "currentFuel": "Nouvelle chaufferie biomasse (travaux lancés octobre 2024) desservant école, périscolaire et salle des fêtes. Combustible exact non précisé — projet récent, fournisseur potentiellement pas encore engagé sur le long terme.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2024,
+          "confidence": "confirme",
+          "note": "Communication institutionnelle du SIED70 sur sa propre infrastructure : lancement des travaux de la chaufferie biomasse d'Apremont, octobre 2024.",
+          "source": "https://www.sied70.fr/actualite/2024-10-03_lancement_des_travaux_de_la_chaufferie_biomasse_d-apremont"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Syndicat d'énergie",
+          "org": "SIED70",
+          "searchUrl": "https://www.sied70.fr/"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Chaufferie neuve (travaux 2024) : le fournisseur de combustible n'est probablement pas encore verrouillé sur un contrat long terme — fenêtre d'opportunité.",
+      "sourceSummary": "SIED70 — https://www.sied70.fr/actualite/2024-10-03_lancement_des_travaux_de_la_chaufferie_biomasse_d-apremont"
+    },
+    {
+      "id": "varzy-reseau-chaleur",
+      "name": "Commune de Varzy — réseau de chaleur biomasse en circuit court",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse (écoles, EHPAD, commerces, logements)",
+      "city": "Varzy",
+      "department": "Nièvre (58)",
+      "lat": 47.36,
+      "lon": 3.38,
+      "currentFuel": "2 chaudières bois de 500 kW chacune + appoint gaz (1200+600 kW), réseau de 1 281 m desservant plus de 15 bâtiments (~700 personnes). Combustible confirmé : plaquettes forestières issues des forêts communales, 843 tonnes/an.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2025,
+          "confidence": "confirme",
+          "note": "Inauguré le 8 décembre 2025, confirmé par deux sources indépendantes concordantes (AMRF et Fondation Patrimoine-Environnement) : plaquettes forestières, 843 t/an, bois issu des forêts communales, circuit court.",
+          "source": "https://www.amrf.fr/2026/02/26/varzy-58-innove-avec-un-reseau-de-chaleur-biomasse-en-circuit-court/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Mairie",
+          "org": "Commune de Varzy",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=mairie+de+varzy"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "AMRF + Fondation Patrimoine-Environnement — https://www.amrf.fr/2026/02/26/varzy-58-innove-avec-un-reseau-de-chaleur-biomasse-en-circuit-court/"
     }
   ]
 }
