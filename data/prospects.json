@@ -140,12 +140,12 @@
       "department": "Bas-Rhin (67)",
       "lat": 48.462,
       "lon": 7.481,
-      "fuelConfirmation": "inconnu",
+      "fuelConfirmation": "granules",
       "signals": [
         {
           "type": "bciat",
           "year": 2021,
-          "confidence": "a_verifier",
+          "confidence": "indice",
           "note": "Cité parmi les 17 lauréats 2021 de l'appel à projets Chaleur Industrielle Biomasse (BCIAT).",
           "source": "https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/"
         },
@@ -153,6 +153,13 @@
           "type": "secteur_energivore",
           "confidence": "indice",
           "source": "https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/"
+        },
+        {
+          "type": "presse_conversion",
+          "year": 2021,
+          "confidence": "indice",
+          "note": "Brûleur de poudre de granulés de bois installé sur une chaudière gaz existante ; mix énergétique explicitement décrit comme « 90% granulés de bois locaux / 10% biométhane » (biométhane issu du traitement des effluents du site).",
+          "source": "https://www.genieclimatique.fr/tendances/8208/la-biomasse-houblonnee-de-kronenbourg-subventionnee-par-l-etat"
         }
       ],
       "entryPoints": [
@@ -164,7 +171,8 @@
         }
       ],
       "status": "a_qualifier",
-      "sourceSummary": "Bioénergie Promotion, « Les 17 lauréats 2021 de l'appel à projet de Chaleur Industrielle Biomasse » — https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/ (détail du site d'Obernai à reconfirmer dans la liste complète des 17 lauréats)"
+      "sourceSummary": "Bioénergie Promotion, « Les 17 lauréats 2021 de l'appel à projet de Chaleur Industrielle Biomasse » — https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/ (détail du site d'Obernai à reconfirmer dans la liste complète des 17 lauréats)",
+      "currentFuel": "Brûleur de poudre de granulés de bois installé en 2021 sur une chaudière gaz existante : mix décrit comme 90% granulés de bois locaux / 10% biométhane (effluents du site). C'est la mention « granulés » la plus explicite et la plus proche géographiquement trouvée à ce jour."
     },
     {
       "id": "thaon-les-vosges-reseau-chaleur",
@@ -922,6 +930,509 @@
       ],
       "status": "a_qualifier",
       "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "tereos-pleurs",
+      "name": "Tereos — site de nutrition animale de Pleurs",
+      "type": "industriel",
+      "sector": "Agroalimentaire — déshydratation / nutrition animale",
+      "city": "Pleurs",
+      "department": "Marne (51)",
+      "lat": 48.7,
+      "lon": 3.97,
+      "currentFuel": "Brûleurs biomasse de 7,7 MW installés sur générateurs d'air chaud en 2021, en remplacement du charbon, pour le séchage de produits de nutrition animale. Combustible exact (granulés vs plaquettes) non précisé par la source.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Lauréat de la vague du 9 avril 2021 (dispositif Chaleur Biomasse / France Relance, équivalent BCIAT élargi). Puissance 7,7 MW.",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Responsable énergie / site",
+          "org": "Tereos",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Tereos%20Pleurs%20energie"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+    },
+    {
+      "id": "steinbourg-scierie-caisserie",
+      "name": "Scierie et Caisserie de Steinbourg",
+      "type": "industriel",
+      "sector": "Industrie du bois — scierie feuillus (hêtre) / caisserie",
+      "city": "Steinbourg",
+      "department": "Bas-Rhin (67)",
+      "lat": 48.75,
+      "lon": 7.42,
+      "currentFuel": "Chaudière biomasse de 3,5 MW (2021) alimentée aux connexes de scierie (sciure/écorces de hêtre) pour couvrir 12 séchoirs existants + 8 nouveaux séchoirs. Pas de granulés — combustible = sous-produits internes.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Lauréat de la vague du 9 avril 2021. Chaudière biomasse 3,5 MW, émissions évitées estimées à 2 900 t CO2/an.",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction / responsable énergie",
+          "org": "Scierie et Caisserie de Steinbourg",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=scierie+et+caisserie+de+steinbourg"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+    },
+    {
+      "id": "bionrgy-jura-saint-germain",
+      "name": "Bio'Nrgy du Jura",
+      "type": "industriel",
+      "sector": "Industrie du bois — chaufferie mutualisée (scieries)",
+      "city": "Saint-Germain-en-Montagne",
+      "department": "Jura (39)",
+      "lat": 46.75,
+      "lon": 5.75,
+      "currentFuel": "Chaudière biomasse mutualisée de 4,2 MW (2021) alimentant 3 sociétés de la filière bois (SIBC, Merrains du Jura, Jurawood) aux connexes de scierie (sous-produits internes) — pas de granulés identifiés.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Lauréat de la vague du 9 avril 2021. Chaudière 4,2 MW, émissions évitées estimées à 5 500 t CO2/an.",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction",
+          "org": "Bio'Nrgy du Jura",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=bio%27nrgy+du+jura"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+    },
+    {
+      "id": "sun-deshy-soudron",
+      "name": "Sun Deshy — site de Soudron",
+      "type": "industriel",
+      "sector": "Agroalimentaire — déshydratation de luzerne",
+      "city": "Soudron",
+      "department": "Marne (51)",
+      "lat": 48.83,
+      "lon": 4.27,
+      "currentFuel": "Substitution progressive du charbon par la biomasse sur four de séchage (30% en 2017, objectif 75% après le projet 2021) avec plateforme de stockage biomasse. Combustible exact non précisé.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2017,
+          "confidence": "confirme",
+          "note": "Lauréat BCIAT 2017 : injecteur biomasse sur four de séchage existant de 30 MW, substitution de 30% du charbon.",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        },
+        {
+          "type": "bciat",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Lauréat complémentaire de la vague du 9 avril 2021 : plateforme de stockage biomasse, objectif de substitution porté à 75%. Émissions évitées supplémentaires estimées à 10 000 t CO2/an.",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction / responsable énergie",
+          "org": "Sun Deshy (coopérative agricole de déshydratation)",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=sun+deshy"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+    },
+    {
+      "id": "capdea-assencieres",
+      "name": "Capdea — site d'Assencières",
+      "type": "industriel",
+      "sector": "Agroalimentaire — déshydratation de luzerne",
+      "city": "Assencières",
+      "department": "Aube (10)",
+      "lat": 48.35,
+      "lon": 4.15,
+      "currentFuel": "Substitution progressive du charbon par la biomasse dans les fours de séchage de luzerne (32,1% en 2018, objectif 70% après le projet 2021), auvent de stockage biomasse ajouté. Combustible exact non précisé.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2018,
+          "confidence": "indice",
+          "note": "Lauréat probable BCIAT 2018 (information reconstituée via recherche, source bioenergie-promotion.fr inaccessible directement).",
+          "source": "https://www.bioenergie-promotion.fr/56975/les-laureats-de-lappel-a-projets-biomasse-chaleur-industrie-agriculture-et-tertiaire-bciat-2018/"
+        },
+        {
+          "type": "bciat",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Lauréat complémentaire de la vague du 9 avril 2021 : auvent de stockage biomasse, objectif de substitution porté à 70%. Les 2 lignes de séchage avaient déjà été équipées d'injecteurs biomasse en 2007 et 2010 (Fonds Chaleur).",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction / responsable énergie",
+          "org": "Capdea",
+          "searchUrl": "https://www.capdea.fr/"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+    },
+    {
+      "id": "kimberly-clark-toul",
+      "name": "Kimberly-Clark — site de Toul / Villey-Saint-Étienne",
+      "type": "industriel",
+      "sector": "Industrie papetière — ouate de cellulose à usage sanitaire",
+      "city": "Villey-Saint-Étienne",
+      "department": "Meurthe-et-Moselle (54)",
+      "lat": 48.71,
+      "lon": 5.95,
+      "currentFuel": "Chaudière biomasse de 4,6 MW (2021) en substitution du gaz, pour le séchage et le chauffage des locaux. Combustible exact (granulés vs plaquettes) non précisé.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Lauréat de la vague du 9 avril 2021. Chaudière 4,6 MW, émissions évitées estimées à 5 350 t CO2/an.",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Responsable énergie / site",
+          "org": "Kimberly-Clark SAS",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Kimberly-Clark%20Toul%20energie"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+    },
+    {
+      "id": "ahlstrom-stenay",
+      "name": "Ahlstrom (Ahlstrom Munksjö) — site de Stenay (exploitation Dalkia)",
+      "type": "industriel",
+      "sector": "Industrie papetière",
+      "city": "Stenay",
+      "department": "Meuse (55)",
+      "lat": 49.48,
+      "lon": 5.18,
+      "currentFuel": "Chaufferie biomasse de 9 MW (2021), exploitée par Dalkia, couvrant 67,7% des besoins en vapeur du site (papeterie créée en 1920). Combustible exact non précisé.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Lauréat de la vague du 9 avril 2021 (projet porté par Dalkia pour le compte d'Ahlstrom). Chaufferie 9 MW, émissions évitées estimées à 12 400 t CO2/an.",
+          "source": "https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant de la chaufferie",
+          "org": "Dalkia (pour Ahlstrom Munksjö)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Dalkia%20Stenay"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+    },
+    {
+      "id": "engie-raon-letape",
+      "name": "ENGIE Énergie Services — site de Raon-l'Étape",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Raon-l'Étape",
+      "department": "Vosges (88)",
+      "lat": 48.407,
+      "lon": 6.844,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "ENGIE Énergie Services",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=ENGIE+Énergie+Services",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "idex-corcieux",
+      "name": "IDEX — site de Corcieux",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Corcieux",
+      "department": "Vosges (88)",
+      "lat": 48.181,
+      "lon": 6.937,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "IDEX",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=IDEX",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "biofely-chavelot",
+      "name": "Biofely — site de Chavelot",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Chavelot",
+      "department": "Vosges (88)",
+      "lat": 48.209,
+      "lon": 6.454,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "Biofely",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Biofely",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "biofely-verdun",
+      "name": "Biofely — site de Verdun",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Verdun",
+      "department": "Meuse (55)",
+      "lat": 49.16,
+      "lon": 5.384,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "Biofely",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Biofely",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "prodeva-vatry",
+      "name": "Prodeva — site de Vatry",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Vatry",
+      "department": "Marne (51)",
+      "lat": 48.775,
+      "lon": 4.608,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "Prodeva",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Prodeva",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "engie-villiers-les-pots",
+      "name": "ENGIE Énergie Services — site de Villiers-les-Pots",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Villiers-les-Pots",
+      "department": "Côte-d'Or (21)",
+      "lat": 47.25,
+      "lon": 5.35,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "ENGIE Énergie Services",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=ENGIE+Énergie+Services",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "dk6-huningue",
+      "name": "DK6 — site de Huningue",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Huningue",
+      "department": "Haut-Rhin (68)",
+      "lat": 47.596,
+      "lon": 7.585,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "DK6",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=DK6",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "engie-thann",
+      "name": "ENGIE Énergie Services — site de Thann",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Thann",
+      "department": "Haut-Rhin (68)",
+      "lat": 47.809,
+      "lon": 7.108,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "ENGIE Énergie Services",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=ENGIE+Énergie+Services",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+    },
+    {
+      "id": "dalkia-blanzy",
+      "name": "Dalkia — site de Blanzy",
+      "type": "industriel",
+      "sector": "Site industriel (bénéficiaire officiel, activité et combustible à confirmer sur place)",
+      "city": "Blanzy",
+      "department": "Saône-et-Loire (71)",
+      "lat": 46.667,
+      "lon": 4.383,
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Bénéficiaire nommément cité dans la liste officielle des 39 projets « Chaleur Biomasse » validés (France 2030), annoncée le 5 avril 2023. Le communiqué ne donne que le nom et la commune — aucun détail technique (puissance, combustible) par projet.",
+          "source": "https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Contact à identifier",
+          "org": "Dalkia",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Dalkia",
+          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Nom et commune confirmés par un communiqué ministériel officiel ; aucun détail technique disponible dans la source. À qualifier avant prospection.",
+      "sourceSummary": "Communiqué de presse officiel, ministère de l'Économie, 5 avril 2023 — https://presse.economie.gouv.fr/05042023-france-2030-agnes-pannier-runacher-et-roland-lescure-annoncent-de-nouveaux-soutiens-a-la-decarbonation-de-lindustrie/"
     }
   ]
 }
