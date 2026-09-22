@@ -2547,6 +2547,335 @@
       "status": "a_qualifier",
       "notes": "PROSPECT PRIORITAIRE — seule installation à grande échelle utilisant explicitement des granulés identifiée dans toute la zone suisse. Appel d'offres fournisseurs déjà engagé avec 2 fournisseurs suisses (non nommés publiquement) au moment de la recherche — à approcher rapidement, avant la mise en exploitation prévue à l'automne 2026.",
       "sourceSummary": "iwb.ch + srf.ch + energate-messenger.ch"
+    },
+    {
+      "id": "dpe-ambly-be",
+      "name": "École communale d'Ambly",
+      "type": "collectivite",
+      "sector": "Collectivité — école chauffée aux granulés",
+      "city": "Nassogne",
+      "department": "Province de Luxembourg (Belgique)",
+      "lat": 50.14,
+      "lon": 5.28,
+      "currentFuel": "Chaudière automatique aux granulés de bois Ökofen Pellematic 15 kW (2008), silo maçonné ~6 m³ (~4 t), consommation annuelle 3 t de pellets. Bâtiment de 100 m².",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2008,
+          "confidence": "confirme",
+          "note": "Fiche FRW « Facilitateur Bois-Énergie Secteur Public » pour la Région wallonne : chaudière automatique aux granulés de bois.",
+          "source": "https://energie.wallonie.be/files/%C3%89nergies%20vertes/Bio%C3%A9nergie/Fiches%20projet%20bois-%C3%A9nergie/fiche-descriptive-ambly-version-septembre-2008.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Commune",
+          "org": "Commune de Nassogne",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Commune%20de%20Nassogne%20Belgique"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Petite installation (école rurale) — volume limité mais combustible granulés officiellement documenté.",
+      "sourceSummary": "Fiche FRW (energie.wallonie.be)"
+    },
+    {
+      "id": "dpe-houffalize-be",
+      "name": "Parc Naturel des Deux Ourthes — chaudière à pellets",
+      "type": "collectivite",
+      "sector": "Collectivité — bâtiment public chauffé aux granulés",
+      "city": "Houffalize",
+      "department": "Province de Luxembourg (Belgique)",
+      "lat": 50.13,
+      "lon": 5.79,
+      "currentFuel": "Chaudière à pellets 50 kW (2012) avec silo de 10 t, remplace une chaudière mazout (10 000 L/an). Consommation annuelle 16,5 t de pellets. Bâtiment de 1 430 m².",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2012,
+          "confidence": "confirme",
+          "note": "Valbiom, « Les Carnets de Valbiom n°5 » (GAL Pays de l'Ourthe, soutenu par la Wallonie et le FEADER) : chaudière pellets 50 kW.",
+          "source": "https://www.paysourthe.be/wp-content/uploads/2020/08/ValBiom_Carnet-5-Chaudi%C3%A8re-biomasse_2020.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Parc naturel",
+          "org": "Parc Naturel des Deux Ourthes",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Parc%20Naturel%20des%20Deux%20Ourthes"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Valbiom — Carnets de Valbiom n°5"
+    },
+    {
+      "id": "dpe-saint-hubert-be",
+      "name": "Institut Notre-Dame — Saint-Hubert",
+      "type": "collectivite",
+      "sector": "Collectivité — établissement scolaire chauffé aux granulés",
+      "city": "Saint-Hubert",
+      "department": "Province de Luxembourg (Belgique)",
+      "lat": 50.03,
+      "lon": 5.38,
+      "currentFuel": "2 chaudières à pellets Fröling PT4e de 250 kW chacune (500 kW total), filtres électrostatiques, alimentant 6 bâtiments (internat, cuisine, hall Fraipont).",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "indice",
+          "note": "Étude de cas du fournisseur/installateur TSD (Troisvierges, Luxembourg) : 2×250 kW pellets Fröling, détails techniques précis.",
+          "source": "https://www.tsd.lu/references/reseaux-de-chaleur/institut-notre-dame-saint-hubert-b/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction",
+          "org": "Institut Notre-Dame Saint-Hubert",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Institut%20Notre-Dame%20Saint-Hubert"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "tsd.lu (étude de cas fournisseur)"
+    },
+    {
+      "id": "dpe-eupen-be",
+      "name": "Parlement de la Communauté germanophone",
+      "type": "collectivite",
+      "sector": "Collectivité — bâtiment institutionnel chauffé aux granulés",
+      "city": "Eupen",
+      "department": "Communauté germanophone (Belgique)",
+      "lat": 50.63,
+      "lon": 6.03,
+      "currentFuel": "Chaudière à pellets Fröling P4, 100 kW (2013), 3 silos enterrés, régulation Siemens Desigo PX.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2013,
+          "confidence": "indice",
+          "note": "Étude de cas fournisseur TSD : « Combustible : pellets », bâtiment institutionnel officiel identifiable.",
+          "source": "https://www.tsd.lu/references/public/parlement-de-la-communaute-germanophone/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Institution",
+          "org": "Parlement de la Communauté germanophone de Belgique",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Parlament%20der%20Deutschsprachigen%20Gemeinschaft%20Eupen"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "tsd.lu"
+    },
+    {
+      "id": "dpe-botrange-be",
+      "name": "Centre Nature — Parc naturel Hautes Fagnes-Eifel (Botrange)",
+      "type": "collectivite",
+      "sector": "Collectivité — centre nature chauffé aux granulés",
+      "city": "Waimes",
+      "department": "Province de Liège (Belgique)",
+      "lat": 50.5,
+      "lon": 6.08,
+      "currentFuel": "Chaudière Fröling T4 (150 kW) équipée d'une grille adaptée à la combustion de pellets, alimentation par vis sans fin, dépoussiéreur de pellets.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "indice",
+          "note": "Étude de cas fournisseur TSD : installation bi-combustible orientée pellets.",
+          "source": "https://www.tsd.lu/references/commerce-industrie/centre-parc-naturel-botrange-b/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Parc naturel",
+          "org": "Parc naturel Hautes Fagnes-Eifel",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Parc%20naturel%20Hautes%20Fagnes%20Eifel%20Botrange"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "tsd.lu"
+    },
+    {
+      "id": "dpe-saeul-lu",
+      "name": "Réseau de chaleur communal de Saeul",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur communal aux granulés",
+      "city": "Saeul",
+      "department": "Luxembourg",
+      "lat": 49.72,
+      "lon": 5.99,
+      "currentFuel": "2 chaudières à pellets PT4e de 140 kW chacune (280 kW total), 2 ballons tampons 3 000 L, alimentant 4 bâtiments communaux (ancienne caserne de pompiers, école, mairie, église).",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "indice",
+          "note": "Étude de cas fournisseur TSD : « chaufferie à granulés de bois moderne ».",
+          "source": "https://www.tsd.lu/references/reseaux-de-chaleur/reseau-de-chaleur-commune-de-saeul/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Commune",
+          "org": "Commune de Saeul",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Commune%20de%20Saeul%20Luxembourg"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "tsd.lu"
+    },
+    {
+      "id": "dpe-useldange-lu",
+      "name": "Foyer Atert (CTU Useldange)",
+      "type": "collectivite",
+      "sector": "Collectivité — centre thérapeutique chauffé aux granulés",
+      "city": "Useldange",
+      "department": "Luxembourg",
+      "lat": 49.77,
+      "lon": 5.98,
+      "currentFuel": "Chaudière Fröling PT4e, 200 kW (2020). Centre thérapeutique (réhabilitation psychiatrique, soins personnes âgées/handicap, ~450 places).",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2020,
+          "confidence": "indice",
+          "note": "Étude de cas fournisseur TSD : « réseau de chaleur à base de pellets ».",
+          "source": "https://www.tsd.lu/references/public/foyer-atert-useldange/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction",
+          "org": "Foyer Atert",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Foyer%20Atert%20Useldange"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "tsd.lu"
+    },
+    {
+      "id": "dpe-bascharage-lu",
+      "name": "Maison des Aînés « Op Acker »",
+      "type": "collectivite",
+      "sector": "Collectivité — maison de retraite chauffée aux granulés",
+      "city": "Bascharage",
+      "department": "Luxembourg",
+      "lat": 49.58,
+      "lon": 5.9,
+      "currentFuel": "Chaudière Fröling PT4e 250 kW + appoint gaz, local de stockage ~65 m³ (~40 t de pellets), remplissage par soufflage, filtre électrostatique. Construction neuve.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "indice",
+          "note": "Étude de cas fournisseur TSD : chaudière pellets 250 kW, silo 40 t.",
+          "source": "https://www.tsd.lu/references/public/maison-des-aines-op-acker-bascharage-l/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction",
+          "org": "Maison des Aînés Op Acker",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Maison%20des%20Aines%20Op%20Acker%20Bascharage"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "tsd.lu"
+    },
+    {
+      "id": "dpe-kirchberg-lu",
+      "name": "Centrale de cogénération biomasse du Kirchberg",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chauffage urbain (cogénération granulés)",
+      "city": "Luxembourg-Ville",
+      "department": "Luxembourg",
+      "lat": 49.62,
+      "lon": 6.15,
+      "currentFuel": "Chaudière biomasse Vyncke « Joséphine » 14 MWth (2017), granulés livrés dans un silo vertical de 500 t (2,8 t/h). Alimente le réseau de chauffage urbain de 21 km (>76 GWh/an de chaleur renouvelable). ATTENTION : granulés fournis par Kiowatt, filiale du même groupe (LuxEnergie) — approvisionnement en circuit fermé, intérêt commercial direct limité pour un fournisseur externe.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2017,
+          "confidence": "indice",
+          "note": "Bioénergie International (presse professionnelle spécialisée, article détaillé sourcé auprès de l'exploitant LuxEnergie) : chaudière Vyncke 14 MW, granulés, silo 500 t.",
+          "source": "https://www.bioenergie-promotion.fr/95827/a-luxembourg-une-chaudiere-biomasse-chauffe-le-quartier-daffaires-du-kirchberg/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "LuxEnergie",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=LuxEnergie%20Kirchberg%20biomasse"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Auto-approvisionné via Kiowatt (filiale du même groupe) — prospect commercial direct limité malgré la taille (14 MW), mais reste la plus grosse installation granulés identifiée dans toute la zone élargie. À garder pour mémoire / veille.",
+      "sourceSummary": "Bioénergie International (bioenergie-promotion.fr)"
+    },
+    {
+      "id": "dpe-bettembourg-lu",
+      "name": "Centrale de cogénération biomasse de Bettembourg",
+      "type": "collectivite",
+      "sector": "Collectivité — cogénération biomasse aux granulés",
+      "city": "Bettembourg",
+      "department": "Luxembourg",
+      "lat": 49.52,
+      "lon": 6.11,
+      "currentFuel": "Chaudières pellets + gazéification de bois (Burkhardt), exploitant LuxEnergie. Puissance annoncée par la source (« 520 MWth ») jugée incohérente/probable coquille — à vérifier avant usage commercial.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2018,
+          "confidence": "a_verifier",
+          "note": "Bioénergie International : « chaudières pellets », mais la puissance annoncée (520 MWth) semble erronée au vu du contexte (installations Burkhardt généralement de quelques centaines de kW) — à confirmer avant tout contact commercial.",
+          "source": "https://www.bioenergie-promotion.fr/95827/a-luxembourg-une-chaudiere-biomasse-chauffe-le-quartier-daffaires-du-kirchberg/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "LuxEnergie",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=LuxEnergie%20Bettembourg%20biomasse"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Donnée de puissance à vérifier directement auprès de LuxEnergie avant toute démarche commerciale.",
+      "sourceSummary": "Bioénergie International (bioenergie-promotion.fr)"
+    },
+    {
+      "id": "dpe-strassen-lu",
+      "name": "Centrale de cogénération à gazéification de granulés — Strassen",
+      "type": "collectivite",
+      "sector": "Collectivité — cogénération biomasse aux granulés",
+      "city": "Strassen",
+      "department": "Luxembourg",
+      "lat": 49.62,
+      "lon": 6.06,
+      "currentFuel": "Petite centrale de gazéification de granulés (260 kWth/165 kWé, 2015), puis nouvelle centrale vapeur en cogénération biomasse 7,5 MWth/0,99 MWé (2022, fournisseur Vyncke). Exploitant LuxEnergie.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2022,
+          "confidence": "indice",
+          "note": "Bioénergie International : « cogénération par gazéification de granulés » pour la centrale 2015 ; extension 2022 à 7,5 MWth.",
+          "source": "https://www.bioenergie-promotion.fr/95827/a-luxembourg-une-chaudiere-biomasse-chauffe-le-quartier-daffaires-du-kirchberg/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "LuxEnergie",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=LuxEnergie%20Strassen%20biomasse"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Bioénergie International (bioenergie-promotion.fr)"
     }
   ]
 }
