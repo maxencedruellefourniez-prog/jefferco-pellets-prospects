@@ -289,6 +289,639 @@
       "status": "a_qualifier",
       "notes": "À vérifier avant prospection : exploitant exact, puissance, mix énergétique.",
       "sourceSummary": "Actu88, « Épinal - L'équipe de la chaufferie biomasse est à pied d'oeuvre ! » — https://actu88.fr/epinal-lequipe-de-la-chaufferie-biomasse-sont-a-pied-doeuvre/"
+    },
+    {
+      "id": "reseau-de-saint-blin-saint-blin",
+      "name": "Réseau de Saint-Blin",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Saint-Blin",
+      "department": "Haute-Marne (52)",
+      "lat": 48.251,
+      "lon": 5.4165,
+      "currentFuel": "Réseau biomasse solide : 0.32 MW installés sur 0.62 MW totaux (Taux EnR&R 93.1%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.32 MW / 0.62 MW totaux. Taux EnR&R : 93.1%. Identifiant national du réseau : Réseau de Saint-Blin. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Conseil départemental Haute-Marne",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Conseil+départemental+Haute-Marne",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Conseil départemental Haute-Marne."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-fayl-billot-fayl-billot",
+      "name": "Réseau de Fayl-Billot",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Fayl-Billot",
+      "department": "Haute-Marne (52)",
+      "lat": 47.7868,
+      "lon": 5.6042,
+      "currentFuel": "Réseau biomasse solide : 0.7 MW installés sur 1.85 MW totaux (Taux EnR&R 91.3%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.7 MW / 1.85 MW totaux. Taux EnR&R : 91.3%. Identifiant national du réseau : Réseau de Fayl-Billot. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Conseil départemental Haute-Marne",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Conseil+départemental+Haute-Marne",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Conseil départemental Haute-Marne."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chaleur-de-fontaine-francaise-fontaine-francaise",
+      "name": "Réseau de chaleur de Fontaine-Française",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Fontaine-Française",
+      "department": "Côte-d'Or (21)",
+      "lat": 47.5252,
+      "lon": 5.3696,
+      "currentFuel": "Réseau biomasse solide : 0.6 MW installés sur 1.76 MW totaux (Taux EnR&R 91.9%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.6 MW / 1.76 MW totaux. Taux EnR&R : 91.9%. Identifiant national du réseau : Réseau de chaleur de Fontaine-Française. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "REGIE COTE D'OR CHALEUR",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=REGIE+COTE+D'OR+CHALEUR",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : REGIE COTE D'OR CHALEUR."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-hurbache-hurbache",
+      "name": "Réseau de Hurbache",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Hurbache",
+      "department": "Vosges (88)",
+      "lat": 48.3476,
+      "lon": 6.9307,
+      "currentFuel": "Réseau biomasse solide : 0.1 MW installés sur 0.1 MW totaux (Taux EnR&R 100.0%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.1 MW / 0.1 MW totaux. Taux EnR&R : 100.0%. Identifiant national du réseau : Réseau de Hurbache. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Mairie Hurbache",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Mairie+Hurbache",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Mairie Hurbache. Puissance très faible (<300 kW) : les réseaux de cette taille sont le plus souvent alimentés en granulés en France (logistique plaquettes peu adaptée à cette échelle) — hypothèse à vérifier, non confirmée par la donnée source."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-ban-de-sapt-ban-de-sapt",
+      "name": "Réseau Ban de Sapt",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Ban-de-Sapt",
+      "department": "Vosges (88)",
+      "lat": 48.3433,
+      "lon": 7.016,
+      "currentFuel": "Réseau biomasse solide : 0.15 MW installés sur 0.15 MW totaux (Taux EnR&R 66.7%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.15 MW / 0.15 MW totaux. Taux EnR&R : 66.7%. Identifiant national du réseau : Réseau Ban de Sapt. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Mairie Bandesapt",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Mairie+Bandesapt",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Mairie Bandesapt. Puissance très faible (<300 kW) : les réseaux de cette taille sont le plus souvent alimentés en granulés en France (logistique plaquettes peu adaptée à cette échelle) — hypothèse à vérifier, non confirmée par la donnée source."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chaleur-de-la-commune-de-nancray-nancray",
+      "name": "Réseau de chaleur de la commune de Nancray",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Nancray",
+      "department": "Doubs (25)",
+      "lat": 47.2495,
+      "lon": 6.1775,
+      "currentFuel": "Réseau biomasse solide : 1.0 MW installés sur 1.0 MW totaux (Taux EnR&R 100.0%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 1.0 MW / 1.0 MW totaux. Taux EnR&R : 100.0%. Identifiant national du réseau : Réseau de chaleur de la commune de Nancray. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Commune de Nancray",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Commune+de+Nancray",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Commune de Nancray."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-ville-bassemberg-bassemberg",
+      "name": "Réseau de Villé-Bassemberg",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Bassemberg",
+      "department": "Bas-Rhin (67)",
+      "lat": 48.3359,
+      "lon": 7.2777,
+      "currentFuel": "Réseau biomasse solide : 0.54 MW installés sur 2.34 MW totaux (Taux EnR&R 90.5%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.54 MW / 2.34 MW totaux. Taux EnR&R : 90.5%. Identifiant national du réseau : Réseau de Villé-Bassemberg. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Communauté de communes de la vallée de Villé",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Communauté+de+communes+de+la+vallée+de+Villé",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Communauté de communes de la vallée de Villé."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chaleur-de-delle-delle",
+      "name": "Réseau de chaleur de Delle",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Delle",
+      "department": "Territoire de Belfort (90)",
+      "lat": 47.5085,
+      "lon": 6.9964,
+      "currentFuel": "Réseau biomasse solide : 1.2 MW installés sur 2.6 MW totaux (Taux EnR&R 84.6%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 1.2 MW / 2.6 MW totaux. Taux EnR&R : 84.6%. Identifiant national du réseau : Réseau de chaleur de Delle. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "TERRITOIRE HABITAT 90",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=TERRITOIRE+HABITAT+90",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : TERRITOIRE HABITAT 90."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chissey-sur-loue-chissey-sur-loue",
+      "name": "Réseau de Chissey sur Loue",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Chissey-sur-Loue",
+      "department": "Jura (39)",
+      "lat": 47.0604,
+      "lon": 5.7402,
+      "currentFuel": "Réseau biomasse solide : 0.07 MW installés sur 0.07 MW totaux (Taux EnR&R 66.7%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.07 MW / 0.07 MW totaux. Taux EnR&R : 66.7%. Identifiant national du réseau : Réseau de Chissey sur Loue. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Mairie Chissey sur Loue",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Mairie+Chissey+sur+Loue",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Mairie Chissey sur Loue. Puissance très faible (<300 kW) : les réseaux de cette taille sont le plus souvent alimentés en granulés en France (logistique plaquettes peu adaptée à cette échelle) — hypothèse à vérifier, non confirmée par la donnée source."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-la-commune-de-nuits-saint-georges-nuits-saint-georges",
+      "name": "Réseau de la commune de Nuits Saint Georges",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Nuits-Saint-Georges",
+      "department": "Côte-d'Or (21)",
+      "lat": 47.1466,
+      "lon": 4.9386,
+      "currentFuel": "Réseau biomasse solide : 0.46 MW installés sur 0.46 MW totaux (Taux EnR&R 100.0%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.46 MW / 0.46 MW totaux. Taux EnR&R : 100.0%. Identifiant national du réseau : Réseau de la commune de Nuits Saint Georges. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "MAIRIE NUITS SAINT GEORGES",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=MAIRIE+NUITS+SAINT+GEORGES",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : MAIRIE NUITS SAINT GEORGES."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chaleur-d-allenwiller-sommerau",
+      "name": "Réseau de chaleur d'Allenwiller",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Sommerau",
+      "department": "Bas-Rhin (67)",
+      "lat": 48.6586,
+      "lon": 7.3594,
+      "currentFuel": "Réseau biomasse solide : 1.5 MW installés sur 1.5 MW totaux (Taux EnR&R 100.0%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 1.5 MW / 1.5 MW totaux. Taux EnR&R : 100.0%. Identifiant national du réseau : Réseau de chaleur d'Allenwiller. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Commune de Sommerau",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Commune+de+Sommerau",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Commune de Sommerau."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chaleur-de-bligny-sur-ouche-bligny-sur-ouche",
+      "name": "Réseau de chaleur de Bligny-sur-Ouche",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Bligny-sur-Ouche",
+      "department": "Côte-d'Or (21)",
+      "lat": 47.1062,
+      "lon": 4.6698,
+      "currentFuel": "Réseau biomasse solide : 0.33 MW installés sur 0.85 MW totaux (Taux EnR&R 94.1%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.33 MW / 0.85 MW totaux. Taux EnR&R : 94.1%. Identifiant national du réseau : Réseau de chaleur de Bligny-sur-Ouche. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "REGIE COTE D'OR CHALEUR",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=REGIE+COTE+D'OR+CHALEUR",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : REGIE COTE D'OR CHALEUR."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chaleur-plaine-des-sports-de-saulieu-saulieu",
+      "name": "Réseau de chaleur - Plaine des Sports de Saulieu",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Saulieu",
+      "department": "Côte-d'Or (21)",
+      "lat": 47.2788,
+      "lon": 4.229,
+      "currentFuel": "Réseau biomasse solide : 0.3 MW installés sur 0.8 MW totaux (Taux EnR&R 94.7%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.3 MW / 0.8 MW totaux. Taux EnR&R : 94.7%. Identifiant national du réseau : Réseau de chaleur - Plaine des Sports de Saulieu. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "REGIE COTE D'OR CHALEUR",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=REGIE+COTE+D'OR+CHALEUR",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : REGIE COTE D'OR CHALEUR. Puissance très faible (<300 kW) : les réseaux de cette taille sont le plus souvent alimentés en granulés en France (logistique plaquettes peu adaptée à cette échelle) — hypothèse à vérifier, non confirmée par la donnée source."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-luzy-luzy",
+      "name": "Réseau de Luzy",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Luzy",
+      "department": "Nièvre (58)",
+      "lat": 46.7967,
+      "lon": 3.9985,
+      "currentFuel": "Réseau biomasse solide : 0.64 MW installés sur 1.85 MW totaux (Taux EnR&R 97.3%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.64 MW / 1.85 MW totaux. Taux EnR&R : 97.3%. Identifiant national du réseau : Réseau de Luzy. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid",
+          "year": 2019
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Commune de Luzy",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Commune+de+Luzy",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Commune de Luzy."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "les-hauts-d-evian-evian-les-bains",
+      "name": "Les Hauts d'Evian",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Évian-les-Bains",
+      "department": "Haute-Savoie (74)",
+      "lat": 46.4002,
+      "lon": 6.5894,
+      "currentFuel": "Réseau biomasse solide : 3425 MWh/an produits sur 4462 MWh totaux (Taux EnR&R 76.8%). Puissance installée non renseignée dans l'enquête. Combustible exact (granulés vs plaquettes) à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Production biomasse solide : 3425 MWh/an sur 4462 MWh totaux. Taux EnR&R : 76.8%. Identifiant national du réseau : Les Hauts d'Evian. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "SYAN CHALEUR",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=SYAN+CHALEUR",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : SYAN CHALEUR."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "saint-gondon-saint-gondon",
+      "name": "Saint Gondon",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Saint-Gondon",
+      "department": "Loiret (45)",
+      "lat": 47.6885,
+      "lon": 2.5392,
+      "currentFuel": "Réseau biomasse solide : 0.1 MW installés sur 0.1 MW totaux (Taux EnR&R 100.0%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.1 MW / 0.1 MW totaux. Taux EnR&R : 100.0%. Identifiant national du réseau : Saint Gondon. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Mairie de Saint-Gondon",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Mairie+de+Saint-Gondon",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Mairie de Saint-Gondon. Puissance très faible (<300 kW) : les réseaux de cette taille sont le plus souvent alimentés en granulés en France (logistique plaquettes peu adaptée à cette échelle) — hypothèse à vérifier, non confirmée par la donnée source."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "oph-de-drancy-drancy",
+      "name": "OPH de Drancy",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Drancy",
+      "department": "Seine-Saint-Denis (93)",
+      "lat": 48.9235,
+      "lon": 2.4446,
+      "currentFuel": "Réseau biomasse solide : 0.9 MW installés sur 3.2 MW totaux (Taux EnR&R 54.9%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.9 MW / 3.2 MW totaux. Taux EnR&R : 54.9%. Identifiant national du réseau : OPH de Drancy. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "OFFICE PUBLIC DE L'HABITAT DE DRANCY",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=OFFICE+PUBLIC+DE+L'HABITAT+DE+DRANCY",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : OFFICE PUBLIC DE L'HABITAT DE DRANCY."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "bet-nanterre-chaud-nanterre",
+      "name": "BET NANTERRE chaud",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Nanterre",
+      "department": "Hauts-de-Seine (92)",
+      "lat": 48.8962,
+      "lon": 2.2071,
+      "currentFuel": "Réseau biomasse solide : 0.43 MW installés sur 3.86 MW totaux (Taux EnR&R 54.8%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 0.43 MW / 3.86 MW totaux. Taux EnR&R : 54.8%. Identifiant national du réseau : BET NANTERRE chaud. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid",
+          "year": 2020
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Dalkia",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Dalkia",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Dalkia."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "reseau-de-chaleur-de-cusset-cusset",
+      "name": "Réseau de chaleur de Cusset",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Cusset",
+      "department": "Allier (03)",
+      "lat": 46.1376,
+      "lon": 3.4828,
+      "currentFuel": "Réseau biomasse solide : 1.8 MW installés sur 4.38 MW totaux (Taux EnR&R 93.9%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 1.8 MW / 4.38 MW totaux. Taux EnR&R : 93.9%. Identifiant national du réseau : Réseau de chaleur de Cusset. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid",
+          "year": 2019
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "Syndicat départemental d'Energie de l'Allier",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Syndicat+départemental+d'Energie+de+l'Allier",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : Syndicat départemental d'Energie de l'Allier."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "domnis-acheres-plantes-d-hennemont-acheres",
+      "name": "DOMNIS ACHÈRES Plantes d'Hennemont",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Achères",
+      "department": "Yvelines (78)",
+      "lat": 48.9594,
+      "lon": 2.0693,
+      "currentFuel": "Réseau biomasse solide : 2.5 MW installés sur 7.5 MW totaux (Taux EnR&R 52.6%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 2.5 MW / 7.5 MW totaux. Taux EnR&R : 52.6%. Identifiant national du réseau : DOMNIS ACHÈRES Plantes d'Hennemont. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "DOMNIS",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=DOMNIS",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : DOMNIS."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+    },
+    {
+      "id": "conseil-departemental-maison-d-enfants-saint-just-en-chevalet",
+      "name": "Conseil départemental – Maison d'enfants",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Saint-Just-en-Chevalet",
+      "department": "Loire (42)",
+      "lat": 45.9114,
+      "lon": 3.8259,
+      "currentFuel": "Réseau biomasse solide : 2.0 MW installés sur 2.0 MW totaux (Taux EnR&R 100.0%). Combustible exact (granulés vs plaquettes) non précisé par l'enquête nationale — à vérifier sur place.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Puissance biomasse solide : 2.0 MW / 2.0 MW totaux. Taux EnR&R : 100.0%. Identifiant national du réseau : Conseil départemental – Maison d'enfants. Source : enquête annuelle nationale des réseaux de chaleur (SNCU/FEDENE), publiée par France Chaleur Urbaine.",
+          "source": "https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Maîtrise d'ouvrage / service technique",
+          "org": "SIEL",
+          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=SIEL",
+          "note": "Maître d'ouvrage déclaré dans l'enquête nationale : SIEL."
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Base nationale des réseaux de chaleur et de froid (SNCU/FEDENE) — data.gouv.fr / France Chaleur Urbaine — https://www.data.gouv.fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid"
     }
   ]
 }
