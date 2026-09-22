@@ -2186,6 +2186,367 @@
       "status": "a_qualifier",
       "notes": "Changement récent d'exploitant (2023) — fournisseur de combustible possiblement à renégocier, fenêtre d'opportunité.",
       "sourceSummary": "bnn.de — https://bnn.de/pforzheim/enzkreis/straubenhardt/nah-waerme-straubenhardt-uebernimmt-biomasse-heizwerk"
+    },
+    {
+      "id": "dpe-porrentruy-ch",
+      "name": "Thermoréseau de Porrentruy (Thermobois SA)",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Porrentruy",
+      "department": "Canton du Jura (Suisse)",
+      "lat": 47.42,
+      "lon": 7.08,
+      "currentFuel": "2 chaudières bois Schmid (2,5 + 5,5 MW) + mazout de secours (2,7 MW), jusqu'à 40 000 m³/an de plaquettes forestières (80% forêts publiques/privées jurassiennes). Couvre les deux tiers des besoins de chaleur de Porrentruy.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "confirme",
+          "note": "Presse spécialisée + page officielle du canton du Jura (jura.ch) corroborant les volumes : réseau plaquettes, >420 sous-stations, jusqu'à 33 GWh/an.",
+          "source": "https://www.jura.ch/fr/Autorites/Administration/DEC/ENV/Forets/Filiere-Foret-Bois/Utilisation-du-bois/Utilisation-du-bois.html"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Thermobois SA",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Thermobois%20SA%20Porrentruy"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "jura.ch + bioenergie-promotion.fr + thermobois.ch"
+    },
+    {
+      "id": "dpe-delemont-ch",
+      "name": "Chauffage à distance du Cras-des-Fourches",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur (quartier résidentiel)",
+      "city": "Delémont",
+      "department": "Canton du Jura (Suisse)",
+      "lat": 47.37,
+      "lon": 7.34,
+      "currentFuel": "Chaudière bois 630 kW (1997) + gaz de secours 459 kW, dessert 82 logements. Racheté par les Services industriels de Delémont (SID) le 7 avril 2025 pour rénovation/extension (crédit 1,9 M CHF).",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2025,
+          "confidence": "confirme",
+          "note": "Site officiel des Services industriels de Delémont (SID) : rachat du réseau le 07/04/2025, chaudière bois 630 kW, projet de rénovation/extension.",
+          "source": "https://sid.delemont.ch/sid/SID/Actualites-Presse/Une-transition-en-douceur-pour-le-chauffage-a-distance-du-quartier-du-Cras-des-Fourches-a-Delemont.html"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Services industriels de Delémont (SID)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Services%20industriels%20de%20Del%C3%A9mont%20SID"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Réseau tout juste racheté par la Ville pour rénovation/extension — fenêtre d'opportunité sur le choix futur du combustible.",
+      "sourceSummary": "sid.delemont.ch"
+    },
+    {
+      "id": "dpe-labrevine-ch",
+      "name": "CADBB — chauffage à distance au bois de La Brévine",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "La Brévine",
+      "department": "Canton de Neuchâtel (Suisse)",
+      "lat": 46.99,
+      "lon": 6.6,
+      "currentFuel": "Chaudière à plaquettes 1,3 MW (2016) avec condenseur de fumées et électrofiltre, remplace 350 000 L de mazout/an. Approvisionnement dans un rayon de 15 km.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2016,
+          "confidence": "confirme",
+          "note": "Dossier de validation officiel OFEV/BAFU pour la Fondation KliK (compensation CO2) : chaudière plaquettes 1,3 MW, 8 856 t CO2e visées d'ici 2030.",
+          "source": "https://www.bafu.admin.ch/dam/bafu/de/dokumente/klima/klima-kop-ab-2022/nouvelle-validation-0132-cadbb-v7.1_public.pdf.download.pdf"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Coopérative",
+          "org": "CADBB (Coopérative de chauffage à distance au bois de La Brévine)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=CADBB%20La%20Br%C3%A9vine"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "OFEV/BAFU (dossier de validation KliK) + suisseenergie.ch"
+    },
+    {
+      "id": "dpe-couvet-ch",
+      "name": "Chauffage à distance de Couvet / Val-de-Travers",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Couvet",
+      "department": "Canton de Neuchâtel (Suisse)",
+      "lat": 46.93,
+      "lon": 6.64,
+      "currentFuel": "Chaudières à plaquettes forestières, puissance totale portée à 6,21 MW (2026, 148 bâtiments raccordés), ~18 000 m³/an, approvisionnement géré par le service forestier communal.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2020,
+          "confidence": "confirme",
+          "note": "Site officiel de la commune de Val-de-Travers : 2e chaudière bois (2,4 MW) approuvée le 19/06/2020, puissance totale portée à 6,21 MW en 2026.",
+          "source": "https://www.val-de-travers.ch/page/extension-du-chauffage-distance-de-couvet"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Commune",
+          "org": "Commune de Val-de-Travers",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Val-de-Travers%20chauffage%20%C3%A0%20distance%20Couvet"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "val-de-travers.ch"
+    },
+    {
+      "id": "dpe-corgemont-ch",
+      "name": "Énergie Corgémont SA",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Corgémont",
+      "department": "Canton de Berne / Jura bernois (Suisse)",
+      "lat": 47.22,
+      "lon": 7.19,
+      "currentFuel": "Réseau à plaquettes de bois, ~60 contrats signés / 32 raccordements effectifs (2024), complété par du photovoltaïque. Objectif 880 t CO2/an et 330 000 L de mazout/an économisés.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Site officiel de la commune de Corgémont + Agence régionale de l'énergie du Jura bernois : réseau plaquettes, déploiement en cours depuis l'automne 2021.",
+          "source": "https://www.corgemont.ch/blog-et-agenda/energie-corgemont-sa-le-deploiement-du-chauffage-va-bon-train"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Énergie Corgémont SA",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Energie%20Corgemont%20SA"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "corgemont.ch + jurabernoisenergie.ch"
+    },
+    {
+      "id": "dpe-pery-la-heutte-ch",
+      "name": "CAD Ecologis SA — Péry-La Heutte",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "La Heutte",
+      "department": "Canton de Berne / Jura bernois (Suisse)",
+      "lat": 47.2,
+      "lon": 7.25,
+      "currentFuel": "2 chaudières bois de 300 kW chacune (2021 puis 2023/2024, doublement de capacité). Combustible « bois » selon le tableau régional, probablement plaquettes vu l'échelle mais non confirmé explicitement.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Agence régionale de l'énergie du Jura bernois + Radio Jura Bernois (RJB) : 2e chaudière bois 300 kW, crédit complémentaire d'1 M CHF voté en juin 2022.",
+          "source": "https://www.jurabernoisenergie.ch/1102-donnees-regionales-chauffages-a-distance"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "CAD Ecologis SA",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Ecologis%20SA%20Pery%20La%20Heutte"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "jurabernoisenergie.ch + rjb.ch"
+    },
+    {
+      "id": "dpe-villeret-ch",
+      "name": "Chauffage à distance de Villeret",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Villeret",
+      "department": "Canton de Berne / Jura bernois (Suisse)",
+      "lat": 47.17,
+      "lon": 7.02,
+      "currentFuel": "Chaudières bois 1600 kW + 550 kW (tableau régional). Combustible « bois », probablement plaquettes vu la puissance mais non confirmé explicitement.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2020,
+          "confidence": "confirme",
+          "note": "Agence régionale de l'énergie du Jura bernois + Radio Jura Bernois : travaux lancés 2020, opérationnel dès septembre 2020.",
+          "source": "https://www.jurabernoisenergie.ch/1102-donnees-regionales-chauffages-a-distance"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Commune",
+          "org": "Commune de Villeret",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Villeret%20chauffage%20%C3%A0%20distance"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "jurabernoisenergie.ch + rjb.ch"
+    },
+    {
+      "id": "dpe-reconvilier-ch",
+      "name": "RU-Calor SA — Reconvilier",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Reconvilier",
+      "department": "Canton de Berne / Jura bernois (Suisse)",
+      "lat": 47.24,
+      "lon": 7.28,
+      "currentFuel": "Réseau à bois local (probablement plaquettes), dessert ~90% des bâtiments communaux + commerces/logements privés, 8 GWh/an (2023). 2e chaudière bois prévue.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "indice",
+          "note": "Média régional Canal Alpha + tableau de l'Agence régionale de l'énergie du Jura bernois : 65 raccordements, 8 GWh/an (2023), 2e chaudière bois en projet.",
+          "source": "https://www.canalalpha.ch/play/le-journal/topic/24663/reconviller-voit-le-bout-des-tuyaux-de-chauffage"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "RU-Calor SA",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=RU-Calor%20SA%20Reconvilier"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "canalalpha.ch + jurabernoisenergie.ch"
+    },
+    {
+      "id": "dpe-balsthal-ch",
+      "name": "Wärmeverbund Balsthal",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Balsthal",
+      "department": "Canton de Soleure (Suisse)",
+      "lat": 47.32,
+      "lon": 7.69,
+      "currentFuel": "Chaudière bois 1,6 MW + gaz de secours 1,6 MW, >85% de l'énergie thermique d'origine bois. Plaquettes fournies exclusivement par Forst Thal. ~5,2 GWh/an distribués.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2010,
+          "confidence": "confirme",
+          "note": "Page officielle de l'exploitant BKW AEK Contracting AG : « Holzschnitzelfeuerung », fournisseur exclusif Forst Thal.",
+          "source": "https://www.bac.ch/de/waermeverbunde/balsthal"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "BKW AEK Contracting AG",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=BAC%20BKW%20AEK%20Contracting%20Balsthal"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "bac.ch"
+    },
+    {
+      "id": "dpe-oensingen-ch",
+      "name": "Wärmeverbund Oensingen",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Oensingen",
+      "department": "Canton de Soleure (Suisse)",
+      "lat": 47.29,
+      "lon": 7.72,
+      "currentFuel": "2 chaudières bois (2,0 + 0,7 MW) + gaz d'appoint 1,8 MW, ~99% de la chaleur renouvelable, ~750 logements desservis. Plaquettes fournies par la Bürgergemeinde Oensingen. Extension prévue en 2027/2028 (chaudière bois 5,0 MW).",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2011,
+          "confidence": "confirme",
+          "note": "Page officielle de l'exploitant BKW AEK Contracting AG : Holzschnitzel fournies par la Bürgergemeinde, extension à 5 MW prévue 2027/2028.",
+          "source": "https://www.bac.ch/de/waermeverbunde/oensingen"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "BKW AEK Contracting AG",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=BAC%20BKW%20AEK%20Contracting%20Oensingen"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "EXTENSION PRÉVUE 2027/2028 (nouvelle chaudière 5 MW) — fenêtre d'opportunité à suivre, même si le combustible actuel est en plaquettes locales.",
+      "sourceSummary": "bac.ch"
+    },
+    {
+      "id": "dpe-bellach-ch",
+      "name": "Wärmeverbund Bellach",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse (bâtiments communaux)",
+      "city": "Bellach",
+      "department": "Canton de Soleure (Suisse)",
+      "lat": 47.22,
+      "lon": 7.53,
+      "currentFuel": "Chaudière bois 330 kW (2021) remplaçant 5 chaudières mazout, dessert 6-7 bâtiments communaux (église, maison communale, écoles). Plaquettes issues de la forêt bourgeoisiale de Bellach (161 ha).",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Association des communes suisses (schweizer-gemeinde.ch) : chaudière 330 kW, plaquettes de la forêt bourgeoisiale locale.",
+          "source": "https://www.schweizer-gemeinde.ch/artikel/bellach-heizt-mit-schnitzeln-aus-dem-eigenen-wald"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Commune",
+          "org": "Commune de Bellach",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Bellach%20W%C3%A4rmeverbund%20Gemeinde"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "schweizer-gemeinde.ch"
+    },
+    {
+      "id": "dpe-basel-iwb-granules-ch",
+      "name": "Heizwerk Bahnhof (IWB) — quartier de Gundeldingen",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chauffage urbain aux granulés (1ère installation de ce type en Suisse)",
+      "city": "Bâle",
+      "department": "Canton de Bâle-Ville (Suisse)",
+      "lat": 47.545,
+      "lon": 7.585,
+      "currentFuel": "Conversion d'un brûleur gaz existant (centrale de 1982) vers les granulés de bois, mise en exploitation prévue automne 2026. Besoin estimé ~100 t/jour de granulés, approvisionnement par 2 fournisseurs suisses (rayon 200-300 km), critères de durabilité pondérés à 40% dans le choix des fournisseurs.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2026,
+          "confidence": "confirme",
+          "note": "Page officielle IWB (exploitant du réseau de chauffage urbain de Bâle) + SRF : « Schweizer Premiere: Pelletöfen für Fernheizung in Basel ». Réduction attendue 23 000 t CO2/an, part CO2-neutre du réseau bâlois portée de 75% à 80%.",
+          "source": "https://www.iwb.ch/servicecenter/bau-anlagenprojekte/waermeversorgung/heizwerk-bahnhof"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant du réseau de chauffage urbain",
+          "org": "IWB (Industrielle Werke Basel)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=IWB%20Basel%20Heizwerk%20Bahnhof%20Pellets"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "PROSPECT PRIORITAIRE — seule installation à grande échelle utilisant explicitement des granulés identifiée dans toute la zone suisse. Appel d'offres fournisseurs déjà engagé avec 2 fournisseurs suisses (non nommés publiquement) au moment de la recherche — à approcher rapidement, avant la mise en exploitation prévue à l'automne 2026.",
+      "sourceSummary": "iwb.ch + srf.ch + energate-messenger.ch"
     }
   ]
 }
