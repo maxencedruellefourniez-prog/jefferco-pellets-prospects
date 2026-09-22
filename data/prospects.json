@@ -1854,6 +1854,338 @@
       ],
       "status": "a_qualifier",
       "sourceSummary": "AMRF + Fondation Patrimoine-Environnement — https://www.amrf.fr/2026/02/26/varzy-58-innove-avec-un-reseau-de-chaleur-biomasse-en-circuit-court/"
+    },
+    {
+      "id": "dpe-hassloch-de",
+      "name": "Nahwärmeversorgung Haßloch (école + crèche)",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur communal aux granulés",
+      "city": "Haßloch",
+      "department": "Rhénanie-Palatinat (Allemagne)",
+      "lat": 49.35,
+      "lon": 8.25,
+      "currentFuel": "Chaufferie en conteneur, 2 chaudières à granulés, alimentant l'école primaire Schillerschule (3 bâtiments + périscolaire + gymnase) et une crèche. Combustible choisi en granulés plutôt que plaquettes car le besoin de chaleur était jugé trop faible pour un fonctionnement stable en plaquettes.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2017,
+          "confidence": "confirme",
+          "note": "Energieatlas Rheinland-Pfalz (portail officiel du Land) : « Nahwärmeversorgung auf Basis einer Holzpelletfeuerung ». Coût 408 000 €, ingénierie Pfalzwerke AG.",
+          "source": "https://www.energieatlas.rlp.de/earp/praxisbeispiele/projektsteckbriefe/projekt-steckbriefe/anzeigen/kommune/140"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Commune / Pfalzwerke AG (ingénierie)",
+          "org": "Gemeinde Haßloch",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Ha%C3%9Floch%20Nahw%C3%A4rme%20Pfalzwerke"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Energieatlas Rheinland-Pfalz — https://www.energieatlas.rlp.de/earp/praxisbeispiele/projektsteckbriefe/projekt-steckbriefe/anzeigen/kommune/140"
+    },
+    {
+      "id": "dpe-stutensee-de",
+      "name": "Jugendeinrichtung Schloss Stutensee",
+      "type": "collectivite",
+      "sector": "Collectivité — établissement pour jeunes chauffé aux granulés",
+      "city": "Stutensee",
+      "department": "Bade-Wurtemberg (Allemagne)",
+      "lat": 49.06,
+      "lon": 8.51,
+      "currentFuel": "2 chaudières à granulés indépendantes (redondance), remplaçant une ancienne installation au fioul, depuis fin 2021. Réalisé avec l'Umwelt- und Energieagentur Kreis Karlsruhe.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2021,
+          "confidence": "confirme",
+          "note": "Site officiel de l'établissement : travaux fin 2020, mise en service fin 2021, deux chaudières à granulés.",
+          "source": "https://www.jugend-schloss.de/nachhaltigkeit"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction de l'établissement",
+          "org": "Jugendeinrichtung Schloss Stutensee",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Schloss%20Stutensee%20Jugendeinrichtung"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "jugend-schloss.de — https://www.jugend-schloss.de/nachhaltigkeit"
+    },
+    {
+      "id": "dpe-freiburg-badenova-de",
+      "name": "Holzvergaser-BHKW badenova — Freiburg-Landwasser",
+      "type": "collectivite",
+      "sector": "Collectivité — cogénération biomasse (réseau de quartier)",
+      "city": "Freiburg im Breisgau",
+      "department": "Bade-Wurtemberg (Allemagne)",
+      "lat": 47.99,
+      "lon": 7.79,
+      "currentFuel": "Gazéificateur de bois converti aux granulés (homogénéité de granulométrie recherchée), ~825 t/an de granulés + ~30 m³/an de biodiesel pour l'allumage. Fait passer la part ENR du quartier de 35% à 40%.",
+      "fuelConfirmation": "granules",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2014,
+          "confidence": "confirme",
+          "note": "Page officielle badenova (opérateur) : cogénération gazéification bois alimentée en granulés, ~825 t/an.",
+          "source": "https://www.badenova.de/ueber-uns/engagement/innovativ/innovationsfonds-projekte/holzvergaser-bhkw-in-landwasser.jsp"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "badenova AG & Co. KG",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=badenova%20Freiburg%20Landwasser%20Holzvergaser"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "badenova.de — https://www.badenova.de/ueber-uns/engagement/innovativ/innovationsfonds-projekte/holzvergaser-bhkw-in-landwasser.jsp"
+    },
+    {
+      "id": "dpe-boehringer-ingelheim-de",
+      "name": "Boehringer Ingelheim — centrale biomasse",
+      "type": "industriel",
+      "sector": "Industrie pharmaceutique",
+      "city": "Ingelheim am Rhein",
+      "department": "Rhénanie-Palatinat (Allemagne)",
+      "lat": 49.98,
+      "lon": 8.05,
+      "currentFuel": "Centrale biomasse de 55 MW (mise en service juillet 2024), alimentée en bois de rebut (Altholz), pas en granulés. Couvre jusqu'à 95% des besoins énergétiques renouvelables du site (investissement total 205 M€).",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "bciat",
+          "year": 2024,
+          "confidence": "confirme",
+          "note": "Site Boehringer Ingelheim + presse professionnelle EUWID : centrale biomasse 55 MW, combustible Altholz (bois de rebut) explicitement précisé.",
+          "source": "https://www.boehringer-ingelheim.com/de/biomasseheizkraftwerk-investition-gruene-energie"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Responsable énergie / site",
+          "org": "Boehringer Ingelheim",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Boehringer%20Ingelheim%20Ingelheim%20Energie%20Biomasse"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Gros site industriel (55 MW) déjà équipé en bois de rebut — pas un client granulés direct, mais à explorer pour un besoin de pointe éventuel.",
+      "sourceSummary": "Boehringer Ingelheim + EUWID Holz/Recycling — https://www.boehringer-ingelheim.com/de/biomasseheizkraftwerk-investition-gruene-energie"
+    },
+    {
+      "id": "dpe-st-ingbert-de",
+      "name": "Biomasseheizwerk Stadtwerke St. Ingbert",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "St. Ingbert",
+      "department": "Sarre (Allemagne)",
+      "lat": 49.28,
+      "lon": 7.12,
+      "currentFuel": "Chaufferie mixte biomasse/gaz de 4 MW (moitié/moitié), ~2 500 t/an de plaquettes forestières (forêt palatine + déchets verts locaux). Remplacement de la moitié gaz par pompe à chaleur envisagé sous 2-3 ans ; extension biomasse future envisagée près de l'Ingobertushalle.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2007,
+          "confidence": "confirme",
+          "note": "Site officiel Stadtwerke St. Ingbert (sw-igb.de) : chaufferie biomasse 4 MW, ~2 500 t/an de plaquettes, qualifiée de « Leuchtturmprojekt » par la presse locale.",
+          "source": "https://www.sw-igb.de/biomasse/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Stadtwerke St. Ingbert",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Stadtwerke%20St.%20Ingbert%20Biomasse"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Extension biomasse future envisagée (Ingobertushalle) — fenêtre d'opportunité à suivre.",
+      "sourceSummary": "Stadtwerke St. Ingbert — https://www.sw-igb.de/biomasse/"
+    },
+    {
+      "id": "dpe-birkenfeld-de",
+      "name": "Nahwärmeversorgung Birkenfeld GmbH",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse (bâtiments publics)",
+      "city": "Birkenfeld",
+      "department": "Rhénanie-Palatinat (Allemagne)",
+      "lat": 49.65,
+      "lon": 7.17,
+      "currentFuel": "Réseau ~1 MWth (>70% biomasse), plaquettes et déchets verts régionaux, desservant 19 bâtiments publics (mairie, administration du Landkreis, musée régional) et 11 privés sur ~2 200 m de réseau.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2016,
+          "confidence": "confirme",
+          "note": "Energieatlas Rheinland-Pfalz : réseau biomasse (plaquettes + Grünschnitt), >70% de la production de chaleur.",
+          "source": "https://www.energieatlas.rlp.de/earp/praxisbeispiele/projektsteckbriefe/projekt-steckbriefe/anzeigen/kommune/92"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Structure porteuse",
+          "org": "Nahwärmeversorgung Birkenfeld GmbH",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Nahw%C3%A4rmeversorgung%20Birkenfeld%20GmbH"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Energieatlas Rheinland-Pfalz — https://www.energieatlas.rlp.de/earp/praxisbeispiele/projektsteckbriefe/projekt-steckbriefe/anzeigen/kommune/92"
+    },
+    {
+      "id": "dpe-neuerkirch-kulz-de",
+      "name": "Nahwärmeversorgung Neuerkirch-Külz",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse-solaire",
+      "city": "Külz",
+      "department": "Rhénanie-Palatinat (Allemagne)",
+      "lat": 49.98,
+      "lon": 7.53,
+      "currentFuel": "2 chaudières plaquettes (900+360 kW) + solaire thermique 1 422 m² + fioul de secours. Plus grand réseau solaire-biomasse de Rhénanie-Palatinat selon la commune ; dessert 163 foyers sur 6 km.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2016,
+          "confidence": "confirme",
+          "note": "Energieatlas Rheinland-Pfalz + site de la Verbandsgemeinde Simmern-Rheinböllen : réseau plaquettes+solaire, 163 foyers.",
+          "source": "https://www.energieatlas.rlp.de/earp/praxisbeispiele/projektsteckbriefe/projekt-steckbriefe/anzeigen/kommune/29"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Verbandsgemeinde",
+          "org": "VG Simmern-Rheinböllen",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Verbandsgemeinde%20Simmern-Rheinb%C3%B6llen%20Energie"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Energieatlas Rheinland-Pfalz — https://www.energieatlas.rlp.de/earp/praxisbeispiele/projektsteckbriefe/projekt-steckbriefe/anzeigen/kommune/29"
+    },
+    {
+      "id": "dpe-weilerbach-de",
+      "name": "Nahwärmenetz « Palmenkreuz » — Weilerbach",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse (lotissements neufs)",
+      "city": "Weilerbach",
+      "department": "Rhénanie-Palatinat (Allemagne)",
+      "lat": 49.48,
+      "lon": 7.53,
+      "currentFuel": "Réseau de chaleur plaquettes dans le cadre de la stratégie « Zero-Emission-Village » de la commune ; Pfalzwerke AG fournit 70% de la charge de base une fois 60% des logements raccordés.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "confidence": "indice",
+          "note": "Portail « Wege zum Holz » + site de la commune (Weilerbach) : réseau plaquettes, projet « Zero-Emission-Village », Pfalzwerke AG investisseur/exploitant.",
+          "source": "https://www.weilerbach.de/energiebuero/historie/meilensteine/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Verbandsgemeinde / Pfalzwerke AG",
+          "org": "Verbandsgemeinde Weilerbach",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Weilerbach%20Zero-Emission-Village%20Nahw%C3%A4rme"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "wegezumholz.de + weilerbach.de"
+    },
+    {
+      "id": "dpe-kehl-beb-de",
+      "name": "Biomasseheizkraftwerk BEB Bio Energie Baden — Kehl",
+      "type": "industriel",
+      "sector": "Industrie papetière (chaleur de process)",
+      "city": "Kehl",
+      "department": "Bade-Wurtemberg (Allemagne)",
+      "lat": 48.57,
+      "lon": 7.81,
+      "currentFuel": "2 centrales biomasse (Kehl I depuis 2002, Kehl II), ~50 000 t/an de bois de rebut classes A I/A II et bois frais non traité (extension récente autorisée à des boues papetières prédéséchées) — pas de granulés. Fournit la chaleur de process à la papeterie August Koehler AG.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "icpe_combustion_biomasse",
+          "year": 2023,
+          "confidence": "confirme",
+          "note": "Arrêté du Regierungspräsidium Freiburg (BImSchG, lu en PDF) : extension du mix de combustibles autorisée le 14/12/2023, bois de rebut/frais, ~50 000 t/an pour Kehl II.",
+          "source": "https://rpf.baden-wuerttemberg.de/en/service/presse/medienmitteilungen/artikel/regierungspraesidium-genehmigt-aenderung-des-brennstoffmixes-im-kraftwerk-der-firma-beb-bio-energie-baden-gmbh-in-kehl-ortenaukreis/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "BEB Bio Energie Baden GmbH",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=BEB%20Bio%20Energie%20Baden%20Kehl"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "Regierungspräsidium Freiburg (arrêté BImSchG)"
+    },
+    {
+      "id": "dpe-pforzheim-hkw-de",
+      "name": "Heizkraftwerk Stadtwerke Pforzheim",
+      "type": "collectivite",
+      "sector": "Collectivité — cogénération biomasse urbaine",
+      "city": "Pforzheim",
+      "department": "Bade-Wurtemberg (Allemagne)",
+      "lat": 48.89,
+      "lon": 8.7,
+      "currentFuel": "Cogénération biomasse en pleine propriété des Stadtwerke Pforzheim depuis 2020, alimentée en Altholz (bois de rebut) et Hackschnitzel (plaquettes) — pas de granulés. Rendement énergétique annoncé >80%.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2020,
+          "confidence": "confirme",
+          "note": "Site officiel Stadtwerke Pforzheim : cogénération biomasse (Altholz + Hackschnitzel).",
+          "source": "https://www.stadtwerke-pforzheim.de/waerme/heizkraftwerk-hkw/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Stadtwerke Pforzheim",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Stadtwerke%20Pforzheim%20Heizkraftwerk"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "stadtwerke-pforzheim.de"
+    },
+    {
+      "id": "dpe-straubenhardt-de",
+      "name": "Nah Wärme Straubenhardt (ex-Biomasse-Heizwerk Biotherm)",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse",
+      "city": "Straubenhardt",
+      "department": "Bade-Wurtemberg (Allemagne)",
+      "lat": 48.83,
+      "lon": 8.51,
+      "currentFuel": "Chaufferie biomasse reprise en 2023 par « Nah Wärme Straubenhardt » (ex-exploitant Biotherm en insolvabilité). Combustible exact non précisé dans la presse consultée (mention générique « Biomasse »).",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2023,
+          "confidence": "indice",
+          "note": "Presse régionale (BNN) : reprise de l'exploitation du réseau biomasse en 2023, combustible non détaillé.",
+          "source": "https://bnn.de/pforzheim/enzkreis/straubenhardt/nah-waerme-straubenhardt-uebernimmt-biomasse-heizwerk"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Nah Wärme Straubenhardt",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Nah%20W%C3%A4rme%20Straubenhardt"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Changement récent d'exploitant (2023) — fournisseur de combustible possiblement à renégocier, fenêtre d'opportunité.",
+      "sourceSummary": "bnn.de — https://bnn.de/pforzheim/enzkreis/straubenhardt/nah-waerme-straubenhardt-uebernimmt-biomasse-heizwerk"
     }
   ]
 }
