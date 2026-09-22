@@ -966,9 +966,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Responsable énergie / site",
+          "role": "Directeur des opérations, Tereos Nutrition Animale",
+          "name": "Florent Feige",
           "org": "Tereos",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Tereos%20Pleurs%20energie"
+          "note": "Cité nommément à propos du projet d'injecteur biomasse (copeaux) du site de Pleurs. Titre au niveau de la division Tereos Nutrition Animale (qui comprend Pleurs), pas un titre strictement \"site\".",
+          "searchUrl": "https://matot-braine.fr/au-sommaire/entreprises/tereos-valorise-la-luzerne-pour-la-nutrition-animale"
         }
       ],
       "status": "a_qualifier",
@@ -1002,7 +1004,8 @@
         }
       ],
       "status": "a_qualifier",
-      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf"
+      "sourceSummary": "Dossier de presse gouvernemental « Décarbonation de l'industrie », 9 avril 2021 — https://www.prefectures-regions.gouv.fr/bretagne/content/download/80619/521013/file/dossier-de-presse-laureats-decarbonation-industrie-biomasse-avril-2021.pdf",
+      "notes": "ALERTE : l'entreprise a été placée en redressement judiciaire le 04/11/2025 (cessation des paiements au 01/10/2025, période d'observation de 6 mois) — à vérifier avant toute démarche commerciale. Source : lejournaldesentreprises.com."
     },
     {
       "id": "bionrgy-jura-saint-germain",
@@ -1063,9 +1066,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction / responsable énergie",
-          "org": "Sun Deshy (coopérative agricole de déshydratation)",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=sun+deshy"
+          "role": "Directeur Général de la coopérative Sun Deshy",
+          "name": "Christophe Henri Besançon",
+          "org": "Sun Deshy",
+          "note": "Dirigeant légal (registre du commerce) depuis 2004, pas un titre \"énergie\" spécifique. Sun Deshy exploite aussi Francheville et Noirlieu — à confirmer que ce DG couvre l'interlocuteur opérationnel de Soudron précisément.",
+          "searchUrl": "https://www.pappers.fr/dirigeant/christophe_besancon_1964-04"
         }
       ],
       "status": "a_qualifier",
@@ -1100,9 +1105,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction / responsable énergie",
+          "role": "Directeur Général de Capdéa",
+          "name": "François-Xavier Moons",
           "org": "Capdea",
-          "searchUrl": "https://www.capdea.fr/"
+          "note": "Page officielle \"Notre équipe\". DG du groupe coopératif (3 sites : Assencières, Aulnay, Marigny-le-Châtel), pas un titre \"énergie/combustible\" spécifique au site d'Assencières.",
+          "searchUrl": "https://www.capdea.fr/notre-equipe.html"
         }
       ],
       "status": "a_qualifier",
@@ -1313,10 +1320,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Contact à identifier",
+          "role": "Directeur des Opérations",
+          "name": "Alexandre Roisin",
           "org": "Prodeva",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Prodeva",
-          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+          "note": "Prodeva exploite un site unique (Vatry) — bon niveau de pertinence. Article évoque le passage au 100% biomasse du site.",
+          "searchUrl": "https://www.reussir.fr/prodeva-passe-au-100-biomasse-et-plaide-pour-le-developpement-des-surfaces-de-luzerne"
         }
       ],
       "status": "a_qualifier",
@@ -1437,10 +1445,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Contact à identifier",
-          "org": "Dalkia",
-          "searchUrl": "https://www.societe.com/cgi-bin/search?champs=Dalkia",
-          "note": "Bénéficiaire cité par un communiqué ministériel officiel, sans détail projet — vérifier sur place la nature exacte de l'installation et le combustible avant tout contact commercial."
+          "role": "Directeur du site (Michelin, client de Dalkia pour la chaufferie)",
+          "name": "Sascha Kettler",
+          "org": "Michelin — site de Blanzy",
+          "note": "C'est le directeur du site industriel Michelin (client de la chaufferie Dalkia), pas un salarié Dalkia — mais contact site pertinent et nommément confirmé.",
+          "searchUrl": "https://charolais-news.com/economie/172298-blanzy-michelin-2.html"
         }
       ],
       "status": "a_qualifier",
@@ -3122,9 +3131,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Collectivité / ENGIE Solutions",
+          "role": "8e Vice-Président, en charge des bâtiments, équipements, réseaux de chaleur, gaz et EnR",
+          "name": "Anthony Nappez",
           "org": "Grand Besançon Métropole",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Grand%20Besan%C3%A7on%20M%C3%A9tropole%20r%C3%A9seau%20de%20chaleur%20biomasse%202030"
+          "note": "Élu (point d'entrée institutionnel), pas un technicien acheteur, mais fonction explicitement liée aux réseaux de chaleur.",
+          "searchUrl": "https://www.grandbesancon.fr/portrait/anthony-nappez/"
         }
       ],
       "status": "a_qualifier",
@@ -3152,9 +3163,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Responsable énergie / site",
+          "role": "Directeur des Activités Biomasse et Energie (Luzéal / Agromi)",
+          "name": "Yves Koch",
           "org": "Luzéal",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Luzeal%20Recy%20energie"
+          "note": "Yves Koch (LinkedIn) est le contact fonctionnel le plus pertinent pour un fournisseur de granulés (rôle explicitement biomasse/énergie au niveau groupe, via la filiale combustibles Agromi). Thierry Hammerel (DG groupe) est cité nommément en lien avec ce site précis dans la presse.",
+          "searchUrl": "https://www.linkedin.com/in/yves-koch-2541b715b/"
         }
       ],
       "status": "a_qualifier",
@@ -3182,9 +3195,11 @@
       ],
       "entryPoints": [
         {
-          "role": "Direction",
+          "role": "Directeur des Activités Biomasse et Energie (Luzéal / Agromi)",
+          "name": "Yves Koch",
           "org": "Luzéal",
-          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Luzeal%20Pauvres%20biomasse"
+          "note": "Yves Koch (LinkedIn) est le contact fonctionnel le plus pertinent pour un fournisseur de granulés (rôle explicitement biomasse/énergie au niveau groupe, via la filiale combustibles Agromi). Thierry Hammerel (DG groupe) est cité nommément en lien avec ce site précis dans la presse.",
+          "searchUrl": "https://www.linkedin.com/in/yves-koch-2541b715b/"
         }
       ],
       "status": "a_qualifier",
