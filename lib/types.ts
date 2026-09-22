@@ -30,11 +30,39 @@ export const SIGNAL_WEIGHTS: Record<SignalType, number> = {
   secteur_energivore: 10,
 };
 
+export type SignalConfidence = "confirme" | "indice" | "a_verifier";
+
+export const CONFIDENCE_LABELS: Record<SignalConfidence, string> = {
+  confirme: "Confirmé (source primaire)",
+  indice: "Indice (source secondaire)",
+  a_verifier: "À vérifier",
+};
+
+// Pondère le poids d'un signal selon la fiabilité de sa source : une info
+// confirmée en source primaire (fiche ADEME/CIBE, liste officielle de
+// lauréats) compte plein pot, une info glanée en presse ou agrégée compte
+// pour 70%, une info explicitement non vérifiée ne compte que pour 40%.
+export const CONFIDENCE_MULTIPLIERS: Record<SignalConfidence, number> = {
+  confirme: 1,
+  indice: 0.7,
+  a_verifier: 0.4,
+};
+
+export type FuelConfirmation = "granules" | "plaquettes" | "mixte" | "inconnu";
+
+export const FUEL_CONFIRMATION_LABELS: Record<FuelConfirmation, string> = {
+  granules: "Granulés confirmés",
+  plaquettes: "Plaquettes confirmées (pas granulés)",
+  mixte: "Mix granulés / plaquettes",
+  inconnu: "Combustible non confirmé",
+};
+
 export type Signal = {
   type: SignalType;
   year?: number;
   source: string;
   note?: string;
+  confidence?: SignalConfidence;
 };
 
 export type ProspectType = "industriel" | "collectivite";
@@ -75,6 +103,7 @@ export type Prospect = {
   lat: number;
   lon: number;
   currentFuel?: string;
+  fuelConfirmation?: FuelConfirmation;
   signals: Signal[];
   entryPoints: EntryPoint[];
   status: ProspectStatus;

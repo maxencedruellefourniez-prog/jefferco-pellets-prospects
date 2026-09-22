@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { readProspects } from "@/lib/store";
 import { distanceKm, USINE } from "@/lib/geo";
 import { scoreProspect } from "@/lib/scoring";
-import ScoreBadge from "@/components/ScoreBadge";
-import { SIGNAL_LABELS, STATUS_LABELS } from "@/lib/types";
+import ScoreBadge, { FuelBadge } from "@/components/ScoreBadge";
+import { CONFIDENCE_LABELS, SIGNAL_LABELS, STATUS_LABELS } from "@/lib/types";
 import ProspectEditor from "@/components/ProspectEditor";
 
 export const dynamic = "force-dynamic";
@@ -38,7 +38,10 @@ export default async function ProspectPage({
             {distance} km de {USINE.name}
           </p>
         </div>
-        <ScoreBadge score={breakdown.score} />
+        <div className="flex flex-col items-end gap-2">
+          <ScoreBadge score={breakdown.score} />
+          <FuelBadge fuel={prospect.fuelConfirmation} />
+        </div>
       </div>
 
       <section className="mt-6 rounded-xl border border-black/10 bg-white p-5">
@@ -46,8 +49,11 @@ export default async function ProspectPage({
           Détail du score de probabilité
         </h2>
         <p className="mt-1 text-xs text-black/50">
-          Somme des signaux détectés (plafonnée à 100). La distance n&apos;entre
-          pas dans le score : c&apos;est un critère de priorisation séparé.
+          Somme des signaux détectés, pondérée par la fiabilité de la source et
+          l&apos;ancienneté du signal, plafonnée à 100. Ce score mesure une
+          probabilité de conversion biomasse — <strong>pas</strong> une
+          confirmation du combustible : voir le badge combustible ci-dessus,
+          qui reste volontairement séparé du score.
         </p>
         <ul className="mt-3 space-y-2">
           {breakdown.contributions.map((c) => (
@@ -55,7 +61,12 @@ export default async function ProspectPage({
               key={c.type}
               className="flex items-center justify-between text-sm"
             >
-              <span>{SIGNAL_LABELS[c.type]}</span>
+              <span>
+                {SIGNAL_LABELS[c.type]}
+                <span className="ml-2 text-xs text-black/40">
+                  {CONFIDENCE_LABELS[c.confidence]}
+                </span>
+              </span>
               <span className="font-medium text-[var(--brand-dark)]">
                 +{c.points}
               </span>

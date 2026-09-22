@@ -21,14 +21,17 @@
       "lat": 48.202,
       "lon": 5.833,
       "currentFuel": "Chaufferie bois/gaz mise en service en 2012 (investissement de 4 M€, dispositif BCIAT) — combustible exact (plaquettes vs granulés) à confirmer sur site.",
+      "fuelConfirmation": "inconnu",
       "signals": [
         {
           "type": "bciat",
+          "confidence": "indice",
           "note": "Investissement de 4 M€ dans une installation biomasse soutenue par le dispositif BCIAT.",
           "source": "https://www.usinenouvelle.com/article/la-belle-energie-de-la-biomasse.N204577"
         },
         {
           "type": "secteur_energivore",
+          "confidence": "indice",
           "source": "https://www.usinenouvelle.com/article/la-belle-energie-de-la-biomasse.N204577"
         }
       ],
@@ -54,18 +57,22 @@
       "lat": 48.203,
       "lon": 6.718,
       "currentFuel": "Chaufferie biomasse 10 MWth / 1,4 MWe mise en service en 2023 pour alimenter une dizaine de séchoirs à bois — fonctionne aux connexes de scierie, pas aux granulés à ce jour.",
+      "fuelConfirmation": "plaquettes",
       "signals": [
         {
           "type": "bcib",
+          "confidence": "a_verifier",
           "note": "Profil exactement dans la cible du dispositif BCIB (industrie du bois, séchage). Investissement global annoncé de 50 à 60 M€. Lauréat officiel BCIB à confirmer sur les listes ADEME.",
           "source": "https://www.usinenouvelle.com/article/le-vosgien-gaiffe-injecte-50-millions-d-euros-en-vue-de-relocaliser-la-premiere-transformation-du-bois.N1799332"
         },
         {
           "type": "presse_conversion",
+          "confidence": "indice",
           "source": "https://www.tracesecritesnews.fr/actualite/les-outils-de-sciage-du-vosgien-gaiffe-mobilisent-un-investissement-de-60-millions-d-euros-212599"
         },
         {
           "type": "secteur_energivore",
+          "confidence": "indice",
           "source": "https://www.gaiffe.com/fr/accueil.html"
         }
       ],
@@ -91,15 +98,18 @@
       "lat": 49.283,
       "lon": 5.145,
       "currentFuel": "Chaudière biomasse 5 MWth (7 t/h vapeur) en service depuis février 2012, alimentée par 14 000 t/an de plaquettes forestières, appoint fioul lourd conservé. Pas de granulés identifiés — silo de 900 m³.",
+      "fuelConfirmation": "plaquettes",
       "signals": [
         {
           "type": "bciat",
           "year": 2010,
+          "confidence": "confirme",
           "note": "Lauréat BCIAT 2010, financement ADEME à 54% des investissements éligibles. Fiche « Exemples à suivre » ADEME/ficel CIBE consultée intégralement.",
           "source": "https://cibe.fr/wp-content/uploads/2017/09/FICHE-2012-5-MW-BEL-55.pdf"
         },
         {
           "type": "secteur_energivore",
+          "confidence": "indice",
           "source": "https://cibe.fr/wp-content/uploads/2017/09/FICHE-2012-5-MW-BEL-55.pdf"
         }
       ],
@@ -130,15 +140,18 @@
       "department": "Bas-Rhin (67)",
       "lat": 48.462,
       "lon": 7.481,
+      "fuelConfirmation": "inconnu",
       "signals": [
         {
           "type": "bciat",
           "year": 2021,
+          "confidence": "a_verifier",
           "note": "Cité parmi les 17 lauréats 2021 de l'appel à projets Chaleur Industrielle Biomasse (BCIAT).",
           "source": "https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/"
         },
         {
           "type": "secteur_energivore",
+          "confidence": "indice",
           "source": "https://www.bioenergie-promotion.fr/88394/les-17-laureats-2021-de-lappel-a-projet-de-chaleur-industrielle-biomasse/"
         }
       ],
@@ -164,10 +177,12 @@
       "lat": 48.267,
       "lon": 6.433,
       "currentFuel": "Réseau de chaleur biomasse inauguré en décembre 2025 : ~4 700 t/an de plaquettes forestières sourcées dans un rayon de 45 km, chaufferie gaz d'appoint pour ~5% de la production.",
+      "fuelConfirmation": "plaquettes",
       "signals": [
         {
           "type": "reseau_chaleur_biomasse",
           "year": 2025,
+          "confidence": "confirme",
           "note": "Réseau exploité par Thaon Énergie (ENGIE Solutions + SEM Terr'EnR) dans le cadre d'une DSP de 25 ans.",
           "source": "https://www.engie-solutions.com/fr/presse/thaon-les-Vosges-inaugure-son-reseau-chaleur"
         }
@@ -194,9 +209,11 @@
       "lat": 48.679,
       "lon": 5.89,
       "currentFuel": "Réseau de chaleur présenté comme alimenté à 100% par énergie renouvelable via chaudière biomasse — détails techniques (puissance, exploitant, part granulés/plaquettes) non vérifiés en source primaire.",
+      "fuelConfirmation": "inconnu",
       "signals": [
         {
           "type": "reseau_chaleur_biomasse",
+          "confidence": "a_verifier",
           "note": "Information glanée via recherche agrégée (Le Moniteur / ENGIE Solutions) — à revérifier auprès d'une source primaire avant contact.",
           "source": "https://www.lemoniteur.fr/produits-et-materiels/reseau-de-chaleur/dans-lest-les-reseaux-de-chaleur-des-champs-sourient-a-engie-solutions.XIP7FBKWTJBV3PERU52FEUIWQQ.html"
         }
@@ -223,9 +240,11 @@
       "lat": 48.692,
       "lon": 6.184,
       "currentFuel": "Réseau de chaleur d'environ 11 km alimenté à ~60% par énergies renouvelables — part biomasse/bois-énergie à confirmer précisément (mix possible avec UVE/géothermie).",
+      "fuelConfirmation": "inconnu",
       "signals": [
         {
           "type": "reseau_chaleur_biomasse",
+          "confidence": "a_verifier",
           "note": "Réseau de grande taille, probablement alimenté en plaquettes (pas granulés) — pertinent surtout pour un appoint/backup. Détails à vérifier en source primaire (France Chaleur Urbaine).",
           "source": "https://france-chaleur-urbaine.beta.gouv.fr/reseaux-chaleur"
         }
@@ -251,9 +270,11 @@
       "department": "Vosges (88)",
       "lat": 48.174,
       "lon": 6.449,
+      "fuelConfirmation": "inconnu",
       "signals": [
         {
           "type": "reseau_chaleur_biomasse",
+          "confidence": "a_verifier",
           "note": "Chaufferie biomasse mentionnée en presse locale — détails techniques (puissance, combustible, exploitant) non vérifiés en source primaire.",
           "source": "https://actu88.fr/epinal-lequipe-de-la-chaufferie-biomasse-sont-a-pied-doeuvre/"
         }

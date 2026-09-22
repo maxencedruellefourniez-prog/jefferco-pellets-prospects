@@ -2,8 +2,14 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import ScoreBadge from "@/components/ScoreBadge";
-import { STATUS_LABELS, type ProspectStatus, type ProspectType } from "@/lib/types";
+import ScoreBadge, { FuelBadge } from "@/components/ScoreBadge";
+import {
+  FUEL_CONFIRMATION_LABELS,
+  STATUS_LABELS,
+  type FuelConfirmation,
+  type ProspectStatus,
+  type ProspectType,
+} from "@/lib/types";
 
 type Row = {
   id: string;
@@ -14,12 +20,14 @@ type Row = {
   department: string;
   status: ProspectStatus;
   score: number;
+  fuelConfirmation: FuelConfirmation;
   distance: number;
 };
 
 export default function DashboardClient({ rows }: { rows: Row[] }) {
   const [typeFilter, setTypeFilter] = useState<"tous" | ProspectType>("tous");
   const [statusFilter, setStatusFilter] = useState<"tous" | ProspectStatus>("tous");
+  const [fuelFilter, setFuelFilter] = useState<"tous" | FuelConfirmation>("tous");
   const [maxDistance, setMaxDistance] = useState(300);
   const [search, setSearch] = useState("");
 
@@ -27,6 +35,7 @@ export default function DashboardClient({ rows }: { rows: Row[] }) {
     return rows.filter((row) => {
       if (typeFilter !== "tous" && row.type !== typeFilter) return false;
       if (statusFilter !== "tous" && row.status !== statusFilter) return false;
+      if (fuelFilter !== "tous" && row.fuelConfirmation !== fuelFilter) return false;
       if (row.distance > maxDistance) return false;
       if (
         search &&
@@ -37,7 +46,7 @@ export default function DashboardClient({ rows }: { rows: Row[] }) {
         return false;
       return true;
     });
-  }, [rows, typeFilter, statusFilter, maxDistance, search]);
+  }, [rows, typeFilter, statusFilter, fuelFilter, maxDistance, search]);
 
   return (
     <div>
@@ -70,6 +79,18 @@ export default function DashboardClient({ rows }: { rows: Row[] }) {
             </option>
           ))}
         </select>
+        <select
+          value={fuelFilter}
+          onChange={(e) => setFuelFilter(e.target.value as typeof fuelFilter)}
+          className="rounded-md border border-black/15 px-3 py-2 text-sm"
+        >
+          <option value="tous">Tous combustibles</option>
+          {Object.entries(FUEL_CONFIRMATION_LABELS).map(([value, label]) => (
+            <option key={value} value={value}>
+              {label}
+            </option>
+          ))}
+        </select>
         <label className="flex items-center gap-2 text-sm text-black/70">
           Distance max : {maxDistance} km
           <input
@@ -88,6 +109,7 @@ export default function DashboardClient({ rows }: { rows: Row[] }) {
           <thead className="bg-black/[0.03] text-left text-black/60">
             <tr>
               <th className="px-4 py-3 font-medium">Score</th>
+              <th className="px-4 py-3 font-medium">Combustible</th>
               <th className="px-4 py-3 font-medium">Nom</th>
               <th className="px-4 py-3 font-medium">Type</th>
               <th className="px-4 py-3 font-medium">Secteur</th>
@@ -104,6 +126,9 @@ export default function DashboardClient({ rows }: { rows: Row[] }) {
               >
                 <td className="px-4 py-3">
                   <ScoreBadge score={row.score} />
+                </td>
+                <td className="px-4 py-3">
+                  <FuelBadge fuel={row.fuelConfirmation} />
                 </td>
                 <td className="px-4 py-3">
                   <Link
@@ -128,7 +153,7 @@ export default function DashboardClient({ rows }: { rows: Row[] }) {
             ))}
             {filtered.length === 0 && (
               <tr>
-                <td colSpan={7} className="px-4 py-8 text-center text-black/50">
+                <td colSpan={8} className="px-4 py-8 text-center text-black/50">
                   Aucun prospect ne correspond à ces filtres.
                 </td>
               </tr>

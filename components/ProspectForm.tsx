@@ -3,16 +3,22 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import {
+  CONFIDENCE_LABELS,
+  FUEL_CONFIRMATION_LABELS,
   SIGNAL_LABELS,
   STATUS_LABELS,
   type EntryPoint,
+  type FuelConfirmation,
   type ProspectStatus,
   type ProspectType,
   type Signal,
+  type SignalConfidence,
   type SignalType,
 } from "@/lib/types";
 
 const SIGNAL_TYPES = Object.keys(SIGNAL_LABELS) as SignalType[];
+const CONFIDENCE_VALUES = Object.keys(CONFIDENCE_LABELS) as SignalConfidence[];
+const FUEL_VALUES = Object.keys(FUEL_CONFIRMATION_LABELS) as FuelConfirmation[];
 
 export default function ProspectForm() {
   const router = useRouter();
@@ -25,6 +31,7 @@ export default function ProspectForm() {
   const [lat, setLat] = useState("");
   const [lon, setLon] = useState("");
   const [currentFuel, setCurrentFuel] = useState("");
+  const [fuelConfirmation, setFuelConfirmation] = useState<FuelConfirmation>("inconnu");
   const [notes, setNotes] = useState("");
   const [sourceSummary, setSourceSummary] = useState("");
   const [status, setStatus] = useState<ProspectStatus>("a_qualifier");
@@ -34,7 +41,10 @@ export default function ProspectForm() {
   const [saving, setSaving] = useState(false);
 
   function addSignal() {
-    setSignals((s) => [...s, { type: "secteur_energivore", source: "" }]);
+    setSignals((s) => [
+      ...s,
+      { type: "secteur_energivore", source: "", confidence: "indice" },
+    ]);
   }
   function updateSignal(i: number, patch: Partial<Signal>) {
     setSignals((s) => s.map((sig, idx) => (idx === i ? { ...sig, ...patch } : sig)));
@@ -78,6 +88,7 @@ export default function ProspectForm() {
         lat: latNum,
         lon: lonNum,
         currentFuel: currentFuel || undefined,
+        fuelConfirmation,
         notes: notes || undefined,
         sourceSummary: sourceSummary || undefined,
         status,
@@ -159,6 +170,25 @@ export default function ProspectForm() {
           Combustible / installation actuelle connue
           <textarea value={currentFuel} onChange={(e) => setCurrentFuel(e.target.value)} rows={2} className={inputClass} />
         </label>
+        <label className="mt-3 block text-sm">
+          Confirmation du combustible
+          <select
+            value={fuelConfirmation}
+            onChange={(e) => setFuelConfirmation(e.target.value as FuelConfirmation)}
+            className={inputClass}
+          >
+            {FUEL_VALUES.map((v) => (
+              <option key={v} value={v}>{FUEL_CONFIRMATION_LABELS[v]}</option>
+            ))}
+          </select>
+        </label>
+        <p className="mt-2 text-xs text-black/50">
+          Ne choisir « Granulés confirmés » ou « Mix » que si une source
+          primaire le dit explicitement (fiche technique, exploitant,
+          visite). Par défaut, laisser « Combustible non confirmé » — c&apos;est
+          distinct du score, qui mesure une probabilité de conversion
+          biomasse et non le combustible exact.
+        </p>
       </section>
 
       <section className="rounded-xl border border-black/10 bg-white p-5">
@@ -191,11 +221,27 @@ export default function ProspectForm() {
               <button type="button" onClick={() => removeSignal(i)} className="self-center text-sm text-red-600 hover:underline">
                 Retirer
               </button>
+              <select
+                value={signal.confidence ?? "indice"}
+                onChange={(e) => updateSignal(i, { confidence: e.target.value as SignalConfidence })}
+                className={inputClass}
+              >
+                {CONFIDENCE_VALUES.map((c) => (
+                  <option key={c} value={c}>{CONFIDENCE_LABELS[c]}</option>
+                ))}
+              </select>
+              <input
+                type="number"
+                value={signal.year ?? ""}
+                onChange={(e) => updateSignal(i, { year: e.target.value ? Number(e.target.value) : undefined })}
+                placeholder="Année (optionnel)"
+                className={inputClass}
+              />
               <input
                 value={signal.note ?? ""}
                 onChange={(e) => updateSignal(i, { note: e.target.value })}
                 placeholder="Note (optionnel)"
-                className={inputClass + " sm:col-span-3"}
+                className={inputClass}
               />
             </div>
           ))}

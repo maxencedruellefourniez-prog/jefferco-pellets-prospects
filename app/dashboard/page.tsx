@@ -51,6 +51,7 @@ export default async function DashboardPage() {
           department: prospect.department,
           status: prospect.status,
           score: breakdown.score,
+          fuelConfirmation: prospect.fuelConfirmation ?? "inconnu",
           distance,
         }))}
       />

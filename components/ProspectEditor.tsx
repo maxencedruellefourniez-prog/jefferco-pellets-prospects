@@ -2,11 +2,22 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { STATUS_LABELS, type Prospect, type ProspectStatus } from "@/lib/types";
+import {
+  FUEL_CONFIRMATION_LABELS,
+  STATUS_LABELS,
+  type FuelConfirmation,
+  type Prospect,
+  type ProspectStatus,
+} from "@/lib/types";
+
+const FUEL_VALUES = Object.keys(FUEL_CONFIRMATION_LABELS) as FuelConfirmation[];
 
 export default function ProspectEditor({ prospect }: { prospect: Prospect }) {
   const router = useRouter();
   const [status, setStatus] = useState<ProspectStatus>(prospect.status);
+  const [fuelConfirmation, setFuelConfirmation] = useState<FuelConfirmation>(
+    prospect.fuelConfirmation ?? "inconnu",
+  );
   const [notes, setNotes] = useState(prospect.notes ?? "");
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -17,7 +28,7 @@ export default function ProspectEditor({ prospect }: { prospect: Prospect }) {
     const res = await fetch(`/api/prospects/${prospect.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ status, notes }),
+      body: JSON.stringify({ status, fuelConfirmation, notes }),
     });
     setSaving(false);
     if (!res.ok) {
@@ -56,6 +67,20 @@ export default function ProspectEditor({ prospect }: { prospect: Prospect }) {
             {Object.entries(STATUS_LABELS).map(([value, label]) => (
               <option key={value} value={value}>
                 {label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="text-sm">
+          Confirmation du combustible
+          <select
+            value={fuelConfirmation}
+            onChange={(e) => setFuelConfirmation(e.target.value as FuelConfirmation)}
+            className="mt-1 w-full rounded-md border border-black/15 px-3 py-2 text-sm"
+          >
+            {FUEL_VALUES.map((v) => (
+              <option key={v} value={v}>
+                {FUEL_CONFIRMATION_LABELS[v]}
               </option>
             ))}
           </select>
