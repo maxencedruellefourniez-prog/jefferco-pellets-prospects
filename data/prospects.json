@@ -2876,6 +2876,278 @@
       ],
       "status": "a_qualifier",
       "sourceSummary": "Bioénergie International (bioenergie-promotion.fr)"
+    },
+    {
+      "id": "bourmont-chaufferie-granules",
+      "name": "Bourmont — chaufferie biomasse (collège, EHPAD, écoles, gymnase)",
+      "type": "collectivite",
+      "sector": "Collectivité — chaufferie biomasse aux granulés",
+      "city": "Bourmont-entre-Meuse-et-Mouzon",
+      "department": "Haute-Marne (52)",
+      "lat": 48.16,
+      "lon": 5.73,
+      "currentFuel": "Chaufferie biomasse en service depuis 2013 : plaquettes + 2 chaudières à granulés de 500 kW, desservant le collège, l'EHPAD, 2 écoles et le gymnase.",
+      "fuelConfirmation": "mixte",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2013,
+          "confidence": "confirme",
+          "note": "Identifié via une recherche sur les candidats de conversion à proximité de Damblain — site déjà équipé, à moins de 10 km de l'usine. Mix confirmé plaquettes + granulés (2 chaudières 500 kW).",
+          "source": "https://www.sied70.fr/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Mairie / gestionnaire de la chaufferie",
+          "org": "Commune de Bourmont-entre-Meuse-et-Mouzon",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Bourmont%20chaufferie%20biomasse%20Haute-Marne"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "PROSPECT LE PLUS PROCHE DE L'USINE (moins de 10 km) avec granulés déjà confirmés dans le mix — priorité de contact absolue, à vérifier/qualifier en premier.",
+      "sourceSummary": "Repéré lors de la recherche de candidats de conversion (PCAET/EPCI) — à confirmer directement auprès de la commune"
+    },
+    {
+      "id": "dampierre-sur-salon-granules",
+      "name": "Dampierre-sur-Salon — chaufferie biomasse avec appoint granulés",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur biomasse (appoint granulés)",
+      "city": "Dampierre-sur-Salon",
+      "department": "Haute-Saône (70)",
+      "lat": 47.53,
+      "lon": 5.68,
+      "currentFuel": "Chaufferie biomasse avec réseau de chaleur ; chaudière granulés (bois) de 250 kW en appoint, ~15 t de granulés/an.",
+      "fuelConfirmation": "mixte",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2025,
+          "confidence": "confirme",
+          "note": "SIED70 : lancement des travaux d'une chaufferie biomasse avec réseau de chaleur, chaudière granulés 250 kW en appoint confirmée.",
+          "source": "https://www.sied70.fr/actualite/2025-03-21_lancement_des_travaux_d-une_chaufferie_biomasse_avec_reseau_de_chaleur_a_dampierre-sur-salon"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Syndicat d'énergie",
+          "org": "SIED70",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=SIED70%20Dampierre-sur-Salon"
+        }
+      ],
+      "status": "a_qualifier",
+      "sourceSummary": "SIED70 — https://www.sied70.fr/actualite/2025-03-21_lancement_des_travaux_d-une_chaufferie_biomasse_avec_reseau_de_chaleur_a_dampierre-sur-salon"
+    },
+    {
+      "id": "sied70-lure-conversion",
+      "name": "SIED70 — futur réseau de chaleur bois de Lure (lycée, EHPAD, ADAPEI)",
+      "type": "collectivite",
+      "sector": "Collectivité — projet de chaufferie bois en phase d'études",
+      "city": "Lure",
+      "department": "Haute-Saône (70)",
+      "lat": 47.68,
+      "lon": 6.5,
+      "currentFuel": "Aucune chaufferie biomasse actuelle — projet en phase de maîtrise d'œuvre (études), compétence transférée par la commune au SIED70. Combustible pas encore choisi : fenêtre d'opportunité granulés vs plaquettes.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "secteur_energivore",
+          "confidence": "indice",
+          "note": "SIED70 : projet de chaufferie bois + réseau de chaleur pour desservir le lycée, la résidence Henri Courtois, l'ADAPEI — encore en phase d'études, combustible non figé.",
+          "source": "https://www.sied70.fr/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Syndicat d'énergie",
+          "org": "SIED70",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=SIED70%20Lure%20chaufferie%20bois"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "PROJET EN RÉFLEXION — le choix du combustible n'est pas encore fait. À contacter avant que le fournisseur/exploitant ne soit choisi.",
+      "sourceSummary": "SIED70 — programme de 9 nouvelles chaufferies bois en 3 ans"
+    },
+    {
+      "id": "sied70-champlitte-conversion",
+      "name": "SIED70 — futur réseau de chaleur bois de Champlitte (EHPAD, mairie, école, château)",
+      "type": "collectivite",
+      "sector": "Collectivité — projet de chaufferie bois en phase d'études",
+      "city": "Champlitte",
+      "department": "Haute-Saône (70)",
+      "lat": 47.62,
+      "lon": 5.54,
+      "currentFuel": "Aucune chaufferie biomasse actuelle — projet en phase de maîtrise d'œuvre, compétence transférée au SIED70. Combustible pas encore choisi.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "secteur_energivore",
+          "confidence": "indice",
+          "note": "SIED70 : projet de chaufferie bois + réseau de chaleur pour desservir l'EHPAD, la mairie, la Maison France Service, le groupe scolaire et le château de Champlitte — encore en phase d'études.",
+          "source": "https://www.sied70.fr/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Syndicat d'énergie",
+          "org": "SIED70",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=SIED70%20Champlitte%20chaufferie%20bois"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "PROJET EN RÉFLEXION — combustible pas encore choisi. Fenêtre d'opportunité avant sélection du fournisseur.",
+      "sourceSummary": "SIED70 — programme de 9 nouvelles chaufferies bois en 3 ans"
+    },
+    {
+      "id": "grand-verdun-chaufferie-biomasse",
+      "name": "Chaufferie biomasse du Grand Verdun",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain (en construction)",
+      "city": "Verdun",
+      "department": "Meuse (55)",
+      "lat": 49.155,
+      "lon": 5.375,
+      "currentFuel": "Nouvelle chaufferie biomasse (2 chaudières bois, silos 105+40 t), réseau de chaleur urbain de 12 km, portée par Dalkia pour la Communauté d'Agglomération du Grand Verdun. Combustible visé : bois de rebut forestier (branchages, élagage) — pas de granulés annoncés. Mise en service visée septembre 2026.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "reseau_chaleur_biomasse",
+          "year": 2026,
+          "confidence": "indice",
+          "note": "Communication d'un bureau d'études partenaire du chantier, cohérente avec la page PCAET de Verdun.fr : chantier en cours, mise en service visée septembre 2026, investissement 28 M€.",
+          "source": "https://begc-structure.fr/une-chaufferie-biomasse-denvergure-pour-le-grand-verdun/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Exploitant",
+          "org": "Dalkia (pour la CA du Grand Verdun)",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Dalkia%20Grand%20Verdun%20chaufferie%20biomasse"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Mise en service imminente (sept. 2026) — à recontacter pour évaluer un rôle de fournisseur d'appoint granulés.",
+      "sourceSummary": "begc-structure.fr + verdun.fr (page PCAET)"
+    },
+    {
+      "id": "charleville-citadelle-fermeture-gaz",
+      "name": "Charleville-Mézières — fermeture programmée de la chaufferie gaz de la Citadelle",
+      "type": "collectivite",
+      "sector": "Collectivité — réseau de chaleur urbain (actif fossile en fin de vie programmée)",
+      "city": "Charleville-Mézières",
+      "department": "Ardennes (08)",
+      "lat": 49.77,
+      "lon": 4.72,
+      "currentFuel": "Chaufferie gaz actuellement en service (quartier de la Citadelle). Fermeture officiellement annoncée pour le 1er janvier 2029, le réseau biomasse/biogaz de la Havetière (19,6 MW, en service depuis 2025) prenant le relais pour atteindre 100% EnR.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "secteur_energivore",
+          "confidence": "confirme",
+          "note": "Site officiel de la Ville de Charleville-Mézières : fermeture de la chaufferie gaz de la Citadelle actée pour le 01/01/2029, réseau 100% EnR à cette date.",
+          "source": "https://www.charleville-mezieres.fr/extension-du-chauffage-urbain"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Ville / exploitant du réseau",
+          "org": "Ville de Charleville-Mézières",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Charleville-M%C3%A9zi%C3%A8res%20r%C3%A9seau%20chaleur%20urbain"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Horizon 2029 — actif fossile avec date de fermeture déjà actée par la collectivité, bon horizon de prospection à moyen terme.",
+      "sourceSummary": "charleville-mezieres.fr — https://www.charleville-mezieres.fr/extension-du-chauffage-urbain"
+    },
+    {
+      "id": "grand-besancon-nouvelle-chaufferie-2030",
+      "name": "Grand Besançon Métropole — nouvelle chaufferie biomasse visée 2030",
+      "type": "collectivite",
+      "sector": "Collectivité — extension de réseau de chaleur urbain",
+      "city": "Besançon",
+      "department": "Doubs (25)",
+      "lat": 47.24,
+      "lon": 6.02,
+      "currentFuel": "Réseau de chaleur actuel déjà partiellement biomasse (>75% EnR). Objectif « territoire à énergie positive » 2050 : triplement de la surface desservie et passage à 90% EnR, via une nouvelle chaufferie biomasse visée pour 2030 (233 GWh/an, 23 000 logements équivalents).",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "secteur_energivore",
+          "confidence": "indice",
+          "note": "Presse locale (hebdo25.net, journal-du-palais.fr) référençant une délibération du conseil communautaire (non lue directement) : nouvelle chaufferie biomasse visée 2030, investissement conjoint Grand Besançon Métropole (66 M€) / Engie Solutions (56 M€).",
+          "source": "https://www.grandbesancon.fr/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Collectivité / ENGIE Solutions",
+          "org": "Grand Besançon Métropole",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Grand%20Besan%C3%A7on%20M%C3%A9tropole%20r%C3%A9seau%20de%20chaleur%20biomasse%202030"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Horizon 2030 — à surveiller, projet encore lointain mais budget déjà annoncé.",
+      "sourceSummary": "Presse locale référençant une délibération du conseil communautaire de Grand Besançon Métropole"
+    },
+    {
+      "id": "luzeal-recy",
+      "name": "Luzéal — site de déshydratation de Récy",
+      "type": "industriel",
+      "sector": "Agroalimentaire — déshydratation de luzerne",
+      "city": "Récy",
+      "department": "Marne (51)",
+      "lat": 49.05,
+      "lon": 4.32,
+      "currentFuel": "Combustible actuel : lignite (charbon). Projet de décarbonation financé (UE + ADEME) : remplacement par biomasse + récupération de chaleur fatale d'une usine d'incinération, passage à un séchage basse température. Combustible de remplacement pas figé sur une technologie précise.",
+      "fuelConfirmation": "inconnu",
+      "signals": [
+        {
+          "type": "bciat",
+          "confidence": "confirme",
+          "note": "Base officielle de la Commission européenne (suivi des plans de relance nationaux) : décarbonation financée à 3,7 M€ (dont 1,6 M€ UE, Facilité pour la Reprise et la Résilience, via Fonds Chaleur ADEME). -40% de CO2 visé (7 680 t éq. CO2/an).",
+          "source": "https://reforms-investments.ec.europa.eu/projects/decarbonisation-industrial-site-luzeal-recy_en"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Responsable énergie / site",
+          "org": "Luzéal",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Luzeal%20Recy%20energie"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Combustible de remplacement pas encore figé — fenêtre de prospection sur un appoint granulés. Groupe Luzéal exploite aussi Pontfaverger, Saint-Rémy-sur-Bussy et Sept-Saulx (Marne) sur la même trajectoire de décarbonation, non vérifiés individuellement.",
+      "sourceSummary": "Commission européenne — reforms-investments.ec.europa.eu"
+    },
+    {
+      "id": "luzeal-pauvres",
+      "name": "Luzéal — site de déshydratation de Pauvres",
+      "type": "industriel",
+      "sector": "Agroalimentaire — déshydratation de luzerne",
+      "city": "Pauvres",
+      "department": "Ardennes (08)",
+      "lat": 49.36,
+      "lon": 4.42,
+      "currentFuel": "Combustible actuel : charbon. Conversion en cours vers plaquettes forestières et autres biomasses locales (rayon 100 km), objectif de remplacer 75% de la consommation de charbon. Consommation visée ≈ 40 000 t/an une fois les bâtiments de stockage opérationnels.",
+      "fuelConfirmation": "plaquettes",
+      "signals": [
+        {
+          "type": "bciat",
+          "confidence": "indice",
+          "note": "Article de presse économique (forumeco.fr) reprenant les déclarations du dirigeant : conversion charbon→biomasse en cours, ~40 000 t/an de plaquettes visées, fournisseurs « Forêts et Bois de l'Est » et « Argonne Bois Energie ».",
+          "source": "https://forumeco.fr/lentreprise-luzeal-de-pauvres-veut-favoriser-la-biomasse/"
+        }
+      ],
+      "entryPoints": [
+        {
+          "role": "Direction",
+          "org": "Luzéal",
+          "searchUrl": "https://www.linkedin.com/search/results/people/?keywords=Luzeal%20Pauvres%20biomasse"
+        }
+      ],
+      "status": "a_qualifier",
+      "notes": "Très gros volume visé (40 000 t/an) mais sur plaquettes, pas granulés — intéressant pour un appoint ou une diversification fournisseur plutôt qu'un remplacement total.",
+      "sourceSummary": "forumeco.fr — https://forumeco.fr/lentreprise-luzeal-de-pauvres-veut-favoriser-la-biomasse/"
     }
   ]
 }
